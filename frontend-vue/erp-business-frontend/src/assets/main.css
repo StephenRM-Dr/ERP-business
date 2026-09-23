@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme {
+  /* ERP Business brand palette */
+  --color-brand: #0d6fd6; /* azul eléctrico — primario: botones, enlaces, acciones */
+  --color-brand-hover: #0a5bb0;
+  --color-navy: #123a5c; /* azul marino — secundario: sidebar, headers */
+  --color-navy-light: #1c4d78;
+  --color-bone: #f2f5f7; /* blanco hueso — fondo neutro */
+
+  /* Ported from stitch ERP/Image 8.markdown — third status tier (bajo vs.
+     crítico) that the existing red/emerald pair didn't cover. */
+  --color-warning: #b45309;
+  --color-warning-soft: #fffbeb;
+}

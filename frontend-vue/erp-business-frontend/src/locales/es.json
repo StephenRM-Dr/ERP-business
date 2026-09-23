@@ -1,0 +1,1383 @@
+{
+  "auth": {
+    "title": "Iniciar Sesión",
+    "username": "Usuario",
+    "usernamePlaceholder": "usuario",
+    "password": "Contraseña",
+    "submit": "Ingresar",
+    "submitting": "Ingresando...",
+    "invalidCredentials": "Usuario o contraseña incorrectos",
+    "logout": "Cerrar Sesión"
+  },
+  "common": {
+    "search": "Buscar...",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "loading": "Cargando...",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "remove": "Quitar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "actions": "Acciones",
+    "noResults": "No se encontraron resultados",
+    "comingSoon": "Módulo en construcción",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pagination": {
+      "showing": "Mostrando {from}–{to} de {total}",
+      "perPage": "Por página",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "pageOf": "Página {page} de {total}"
+    }
+  },
+  "sidebar": {
+    "appName": "CORE ERP",
+    "dashboard": "Tablero",
+    "invoices": "Facturación",
+    "invoicesList": "Lista de Facturas",
+    "invoicesSellWithoutStock": "Facturar sin existencia (permiso especial)",
+    "invoicesPriceNational": "Facturar a Tarifa Nacional (Divisas y Bs)",
+    "invoicesPriceLocal": "Facturar a Tarifa de Tienda Local (Divisas y Bs)",
+    "invoicesEditPrice": "Editar Precio en Facturación (Precio Mayorista)",
+    "generalViewAllLocations": "Ver todas las ubicaciones (permiso especial)",
+    "posTerminal": "Punto de Venta (POS)",
+    "newSale": "Nueva Venta",
+    "returns": "Devoluciones",
+    "currencies": "Monedas",
+    "exchangeRates": "Tasa Bancaria",
+    "igtf": "IGTF",
+    "inventory": "Inventario",
+    "inventorySummary": "Resumen",
+    "inventoryProducts": "Productos",
+    "inventoryPrices": "Precios",
+    "inventoryControl": "Ajuste de Existencia",
+    "inventoryTransfers": "Transferencias",
+    "inventoryCargos": "Cargo",
+    "inventoryDescargos": "Descargo",
+    "inventoryKardex": "Kárdex de Movimientos",
+    "inventoryTransformations": "Transformaciones",
+        "inventoryTransformationRules": "Reglas de Transformacion",
+    "inventoryTransformationRulesAdmin": "Administrar Reglas de Transformacion",
+    "inventoryInventoryPreliminares": "Preliminares de Inventario",
+    "inventoryNacional": "Aprobar preliminares y operar en todas las sucursales",
+    "masterImpresoras": "Impresoras por Sucursal",
+    "workshop": "Taller",
+    "corte": "Comandas de Corte (Taller)",
+    "inventoryWarehouses": "Almacenes",
+    "inventoryCategories": "Categorías",
+    "customers": "Clientes",
+    "payables": "Cuentas por Pagar",
+    "master": "Maestros",
+    "masterBancos": "Bancos",
+    "masterEmpresas": "Empresas",
+    "masterSucursales": "Sucursales",
+    "masterRoles": "Roles",
+    "masterCuentasBancarias": "Cuentas Bancarias",
+    "masterUsuarios": "Usuarios",
+    "masterTiposDocumentos": "Tipos de Documentos",
+    "masterInformes": "Informes",
+    "masterProveedores": "Proveedores",
+    "masterVendedores": "Vendedores",
+    "masterParametros": "Parámetros Fiscales",
+    "masterMetodosPago": "Métodos de Pago",
+    "inventoryLotes": "Lotes",
+    "inventorySeriales": "Seriales",
+    "purchases": "Compras",
+    "comprasList": "Facturas de Compra",
+    "supplierPayments": "Pagos a Proveedores",
+    "cuentasCobrar": "Cuentas x Cobrar",
+    "collectionReceipts": "Recibos de Cobro",
+    "documentCancellations": "Anulación de Documentos",
+    "maintenance": "Maestros",
+    "transactions": "Transacciones",
+    "clientsGroup": "Clientes (CxC)",
+    "suppliersGroup": "Proveedores (CxP)",
+    "banksGroup": "Bancos",
+    "sales": "Ventas",
+    "reports": "Informes",
+    "repInventario": "Inventario",
+    "repInvGeneral": "Reporte General",
+    "repInvKardex": "Movimiento de Unidades",
+    "repInvStockBajo": "Stock Bajo por Tienda",
+    "repInvFisico": "Inventario Físico",
+    "repInvReposicion": "Reposición de Inventario",
+    "repInvPrecios": "Lista de Precios",
+    "repInvOfertas": "Ofertas y Presentaciones",
+    "repInvRentabilidad": "Rentabilidad de Productos",
+    "repInvSinMovimiento": "Productos sin movimiento",
+    "repOperaciones": "Operaciones de Inventario",
+    "repOpsOperaciones": "Operaciones",
+    "repOpsProductos": "Operaciones con productos",
+    "repClientes": "Clientes",
+    "repCliGeneral": "General de Clientes",
+    "repCliCxcTienda": "Cuentas por Cobrar por Tienda",
+    "repCliEstadoCuenta": "Estado de cuenta",
+    "repCliCuentasCobrar": "Cuentas por cobrar",
+    "repCliVencimientos": "Análisis de Vencimientos",
+    "repCliRelacionCobros": "Relación de cobros",
+    "repCliRetencion": "Retención de Impuestos",
+    "repProveedores": "Proveedores",
+    "repProvGeneral": "General de Proveedores",
+    "repVentas": "Ventas",
+    "repVenDiario": "Ventas Diarias (Cierre / Operaciones)",
+    "repVenResumen": "Resumen de Ventas",
+    "repVenPorTienda": "Ventas por Tienda (Diario)",
+    "repVenPorVendedor": "Ventas por Vendedor",
+    "repCompras": "Compras",
+    "repComResumen": "Resumen de Compras",
+    "repResumenes": "Resúmenes",
+    "repResGeneral": "Resumen General",
+    "repResVentasTienda": "Resumen de Ventas por Tienda",
+    "system": "Sistema",
+    "restablecerSistema": "Restablecer Sistema"
+  },
+  "navbar": {
+    "title": "Administración en la Nube",
+    "userSession": "Sesión de Usuario"
+  },
+  "cuentasPagar": {
+    "title": "Cuentas por Pagar",
+    "empty": "No hay cuentas por pagar registradas",
+    "loading": "Cargando cuentas por pagar...",
+    "fetchError": "No se pudieron cargar las cuentas por pagar. Intenta de nuevo.",
+    "numeroDocumento": "Documento",
+    "proveedor": "Proveedor",
+    "fechaVencimiento": "Vencimiento",
+    "montoOriginal": "Monto Original",
+    "saldoPendiente": "Saldo Pendiente",
+    "editDialog": {
+      "title": "Editar Cuenta por Pagar",
+      "message": "Corrección administrativa del documento {name}."
+    }
+  },
+  "recibosCobro": {
+    "title": "Recibos de Cobro",
+    "newRecibo": "Nuevo Recibo de Cobro",
+    "empty": "No hay recibos de cobro registrados",
+    "loading": "Cargando recibos de cobro...",
+    "fetchError": "No se pudieron cargar los recibos de cobro. Intenta de nuevo.",
+    "numeroRecibo": "Número",
+    "fechaPago": "Fecha",
+    "cliente": "Cliente",
+    "formaPago": "Forma de Pago",
+    "form": {
+      "selectCustomer": "Selecciona un cliente",
+      "customerSearchPlaceholder": "Buscar cliente por nombre o número de documento",
+      "changeCustomer": "Cambiar",
+      "monedaPago": "Moneda de Pago",
+      "selectMoneda": "Selecciona una moneda",
+      "tasaCambio": "Tasa de Cambio",
+      "metodoPago": "Método de Pago",
+      "selectMetodo": "Selecciona un método",
+      "cuentaBancaria": "Cuenta Bancaria",
+      "cuentasPendientes": "Cuentas por Cobrar Pendientes",
+      "loadingCuentas": "Cargando cuentas pendientes...",
+      "noCuentasPendientes": "Este cliente no tiene cuentas pendientes en esta moneda.",
+      "fechaVencimiento": "Vencimiento",
+      "saldoPendiente": "Saldo Pendiente",
+      "montoAplicar": "Monto a Aplicar",
+      "montoTotal": "Monto Total del Recibo",
+      "igtf": "IGTF ({rate}%)",
+      "observaciones": "Observaciones",
+      "saving": "Guardando...",
+      "saveError": "No se pudo registrar el recibo. Intenta de nuevo."
+    },
+    "cuentasFetchError": "No se pudieron cargar las cuentas pendientes del cliente."
+  },
+  "pagosProveedores": {
+    "title": "Pagos a Proveedores",
+    "newPago": "Nuevo Pago a Proveedor",
+    "empty": "No hay pagos a proveedores registrados",
+    "loading": "Cargando pagos a proveedores...",
+    "fetchError": "No se pudieron cargar los pagos a proveedores. Intenta de nuevo.",
+    "numeroPago": "Número",
+    "fechaPago": "Fecha",
+    "proveedor": "Proveedor",
+    "formaPago": "Forma de Pago",
+    "form": {
+      "selectProveedor": "Selecciona un proveedor",
+      "proveedorSearchPlaceholder": "Buscar proveedor por nombre o RIF",
+      "changeProveedor": "Cambiar",
+      "numeroPago": "Número de Pago",
+      "monedaPago": "Moneda de Pago",
+      "selectMoneda": "Selecciona una moneda",
+      "tasaCambio": "Tasa de Cambio",
+      "metodoPago": "Método de Pago",
+      "selectMetodo": "Sin método específico",
+      "cuentaBancaria": "Cuenta Bancaria",
+      "selectCuenta": "Selecciona una cuenta",
+      "cuentasPendientes": "Cuentas por Pagar Pendientes",
+      "loadingCuentas": "Cargando cuentas pendientes...",
+      "noCuentasPendientes": "Este proveedor no tiene cuentas pendientes en esta moneda.",
+      "montoAplicar": "Monto a Aplicar",
+      "montoTotal": "Monto Total del Pago",
+      "igtf": "IGTF ({rate}%)",
+      "observaciones": "Observaciones",
+      "saving": "Guardando...",
+      "saveError": "No se pudo registrar el pago. Intenta de nuevo."
+    },
+    "cuentasFetchError": "No se pudieron cargar las cuentas pendientes del proveedor."
+  },
+  "compras": {
+    "title": "Compras",
+    "newCompra": "Nueva Factura de Compra",
+    "empty": "No hay facturas de compra registradas",
+    "loading": "Cargando facturas de compra...",
+    "fetchError": "No se pudieron cargar las facturas de compra. Intenta de nuevo.",
+    "numeroFactura": "Número de Factura",
+    "fechaEmision": "Fecha de Emisión",
+    "proveedor": "Proveedor",
+    "anular": "Anular",
+    "anularDialog": {
+      "title": "Anular Factura de Compra",
+      "message": "¿Seguro que deseas anular la factura {name}? También se anulará la cuenta por pagar asociada."
+    },
+    "form": {
+      "selectProveedor": "Selecciona un proveedor",
+      "proveedorSearchPlaceholder": "Buscar proveedor por nombre o RIF",
+      "changeProveedor": "Cambiar",
+      "numeroFactura": "Número de Factura",
+      "fechaVencimiento": "Fecha de Vencimiento",
+      "deposito": "Depósito",
+      "selectDeposito": "Selecciona un depósito",
+      "moneda": "Moneda",
+      "selectMoneda": "Selecciona una moneda",
+      "tasaCambio": "Tasa de Cambio",
+      "productSearchPlaceholder": "Buscar producto por código o nombre...",
+      "producto": "Producto",
+      "cantidad": "Cantidad",
+      "costoUnitario": "Costo Unitario",
+      "impuestoPorcentaje": "Impuesto (%)",
+      "exento": "Exento",
+      "netoLinea": "Neto",
+      "emptyCart": "Agrega productos usando el buscador",
+      "totalBruto": "Subtotal",
+      "montoIva": "IVA",
+      "igtf": "IGTF ({rate}%)",
+      "totalNeto": "Total Neto",
+      "observaciones": "Observaciones",
+      "saving": "Guardando...",
+      "saveError": "No se pudo registrar la factura de compra. Intenta de nuevo."
+    }
+  },
+  "invoices": {
+    "title": "Nueva Factura",
+    "listTitle": "Facturas",
+    "newInvoice": "Nueva Factura",
+    "searchPlaceholder": "Buscar producto por código o nombre...",
+    "productCode": "Código",
+    "productName": "Producto",
+    "price": "Precio",
+    "stock": "Existencia",
+    "outOfStock": "Sin existencia disponible",
+    "maxStockReached": "Cantidad máxima según existencia: {stock}",
+    "cart": {
+      "title": "Detalle de la Factura",
+      "empty": "Agrega productos usando el buscador",
+      "quantity": "Cantidad",
+      "unitPrice": "Precio Unit.",
+      "subtotal": "Subtotal",
+      "remove": "Quitar"
+    },
+    "payment": {
+      "title": "Condiciones de Pago",
+      "method": "Método de Pago",
+      "cash": "Contado",
+      "credit": "Crédito",
+      "termsDays": "Días de Vencimiento",
+      "customer": "Cliente",
+      "selectCustomer": "Selecciona un cliente",
+      "customerSearchPlaceholder": "Buscar cliente por nombre o número de documento",
+      "changeCustomer": "Cambiar"
+    },
+    "notes": {
+      "title": "Comentarios / Observaciones",
+      "placeholder": "Notas internas, instrucciones de entrega, etc. (opcional)"
+    },
+    "totals": {
+      "subtotal": "Subtotal",
+      "freight": "Flete",
+      "discount": "Descuento",
+      "discountPlaceholder": "0 ó 10%",
+      "discountApplied": "Descuento aplicado: {amount}",
+      "tax": "IVA (16%)",
+      "igtf": "IGTF ({rate}%)",
+      "total": "Total a Pagar"
+    },
+    "submit": "Emitir Factura",
+    "submitting": "Emitiendo...",
+    "submitted": "Factura enviada a consola (revisa DevTools)",
+    "issued": "Factura {number} emitida correctamente",
+    "submitError": "No se pudo emitir la factura en el servidor. Verifica los datos e intenta de nuevo.",
+    "newSale": "Nueva Venta",
+    "print": {
+      "title": "Factura",
+      "printButton": "Imprimir",
+      "controlNumber": "N° de Control",
+      "customer": "Cliente",
+      "paymentCondition": "Condición de Pago",
+      "cash": "Contado",
+      "credit": "Crédito",
+      "rate": "Tasa aplicada",
+      "product": "Producto",
+      "quantity": "Cant.",
+      "unitPrice": "Precio Unit.",
+      "lineSubtotal": "Subtotal",
+      "subtotal": "Subtotal",
+      "tax": "IVA",
+      "igtf": "IGTF",
+      "total": "Total",
+      "payments": "Pagos",
+      "notes": "Observaciones",
+      "voided": "FACTURA ANULADA",
+      "voidReason": "Motivo de anulación",
+      "time": "Hora",
+      "issuedBy": "Vendedor",
+      "priceListLocal": "Local",
+      "priceListDivisa": "Precio 50",
+      "discount": "Descuento"
+    },
+    "currency": {
+      "title": "Moneda de la Factura",
+      "rateInUse": "Tasa aplicada",
+      "missingRate": "No hay tasa bancaria registrada para esta moneda. Regístrala en Tasa Bancaria."
+    },
+    "warehouse": {
+      "title": "Almacén de despacho",
+      "noneAvailable": "Tu sucursal no tiene ningún almacén asignado. Contacta a un administrador para registrar uno antes de poder facturar."
+    },
+    "list": {
+      "searchPlaceholder": "Buscar por número o cliente...",
+      "number": "Número",
+      "customer": "Cliente",
+      "date": "Fecha",
+      "currency": "Moneda",
+      "status": "Estado",
+      "loading": "Cargando facturas...",
+      "allPaymentConditions": "Contado y Crédito",
+      "allEmpresas": "Todas las empresas",
+      "allSucursales": "Todas las sucursales"
+    },
+    "status": {
+      "issued": "Emitida",
+      "partially_returned": "Dev. Parcial",
+      "returned": "Devuelta",
+      "voided": "Anulada"
+    },
+    "statusFilter": {
+      "all": "Todas",
+      "issued": "Emitidas",
+      "partially_returned": "Dev. Parciales",
+      "returned": "Devueltas",
+      "voided": "Anuladas"
+    },
+    "actions": {
+      "return": "Devolver",
+      "void": "Anular"
+    },
+    "payments": {
+      "title": "Pagos Registrados",
+      "method": "Método de Pago",
+      "amount": "Monto",
+      "add": "Agregar Pago",
+      "useRemaining": "Usar restante",
+      "none": "Sin pagos registrados",
+      "equivalent": "Equivale a",
+      "paid": "Total Pagado",
+      "remaining": "Restante por Pagar",
+      "change": "Vuelto",
+      "incomplete": "Los pagos registrados no cubren el total de la factura",
+      "igtfNote": "El IGTF ({rate}%) se aplica únicamente sobre la porción pagada en divisas, no sobre el total de la factura.",
+      "cuentaBancaria": "Cuenta receptora",
+      "selectCuenta": "Selecciona una cuenta",
+      "noCuentas": "No hay cuentas bancarias activas registradas",
+      "missingCuenta": "Selecciona la cuenta que recibe el pago",
+      "cuentaCreditError": "Factura {number} emitida, pero no se pudo actualizar el saldo de la cuenta bancaria. Verifícalo manualmente.",
+      "methods": {
+        "cash": "Efectivo",
+        "card": "Punto de Venta",
+        "transfer": "Transferencia",
+        "mobilePayment": "Pago Móvil",
+        "anticipo": "Anticipo / Saldo a Favor"
+      }
+    },
+    "voidDialog": {
+      "title": "Anulación de Factura",
+      "message": "¿Confirmas la anulación de la factura {number}? Esta acción no se puede deshacer.",
+      "reason": "Motivo de la anulación",
+      "reasonPlaceholder": "Ej: error en los datos del cliente",
+      "reasonRequired": "El motivo es obligatorio para anular",
+      "error": "No se pudo anular la factura en el servidor. Intenta de nuevo."
+    },
+    "correlativo": {
+      "tooltip": "Próximo número de factura que se asignará al emitir (preview — puede cambiar si otro usuario emite antes)",
+      "noConfig": "Sin configuración FAC",
+      "noSucursal": "Sin sucursal"
+    }
+  },
+  "returns": {
+    "title": "Devolución de Factura",
+    "listTitle": "Devoluciones",
+    "new": "Nueva Devolución",
+    "description": "Llama una factura emitida para devolver todos o parte de sus ítems",
+    "searchPlaceholder": "Buscar factura por número o cliente...",
+    "noEligible": "No hay facturas elegibles para devolución",
+    "changeInvoice": "Cambiar Factura",
+    "items": "Ítems de la Factura",
+    "purchased": "Comprado",
+    "alreadyReturned": "Ya Devuelto",
+    "toReturn": "A Devolver",
+    "refund": "Reintegro",
+    "totalReturn": "Devolución Total",
+    "clear": "Limpiar",
+    "originalPayments": "Pagos Originales",
+    "creditNoPayments": "Factura a crédito: sin pagos registrados",
+    "type": "Tipo",
+    "typeTotal": "Total",
+    "typePartial": "Parcial",
+    "itemsSubtotal": "Subtotal de Ítems",
+    "refundTotal": "Total a Reintegrar",
+    "refundNote": "El reintegro incluye la porción proporcional de IVA e IGTF pagada por los ítems devueltos.",
+    "reason": "Motivo de la devolución",
+    "reasonPlaceholder": "Ej: producto defectuoso",
+    "reasonRequired": "El motivo es obligatorio para registrar la devolución",
+    "submit": "Registrar Devolución",
+    "submitting": "Registrando...",
+    "registered": "Devolución {number} registrada correctamente",
+    "submitError": "No se pudo registrar la devolución en el servidor. Intenta de nuevo.",
+    "confirmTitle": "Confirmar Devolución",
+    "confirmMessage": "¿Confirmas la devolución sobre la factura {number}? Se reintegrará {refund}.",
+    "print": {
+      "title": "Nota de Crédito",
+      "againstInvoice": "Contra Factura",
+      "reason": "Motivo"
+    },
+    "number": "Nota de Crédito",
+    "itemCount": "Unidades",
+    "empty": "Sin devoluciones registradas",
+    "listSearchPlaceholder": "Buscar por nota de crédito o factura...",
+    "status": {
+      "active": "Activa",
+      "voided": "Anulada"
+    },
+    "statusFilter": {
+      "all": "Todas",
+      "active": "Activas",
+      "voided": "Anuladas"
+    },
+    "voidDialog": {
+      "title": "Anulación de Devolución",
+      "message": "¿Confirmas anular la devolución {number}? La factura {invoice} recuperará su estado y las cantidades volverán a ser devolvibles."
+    }
+  },
+  "currencies": {
+    "title": "Gestión de Monedas",
+    "description": "Monedas disponibles para la emisión de facturas",
+    "code": "Código",
+    "name": "Nombre",
+    "symbol": "Símbolo",
+    "role": "Rol",
+    "base": "Moneda Base",
+    "foreign": "Divisa",
+    "active": "Activa",
+    "pricingNote": "Los precios de los productos se expresan en USD como moneda de referencia. La conversión a la moneda de la factura se realiza con la tasa bancaria vigente.",
+    "loading": "Cargando monedas...",
+    "fetchError": "No se pudieron cargar las monedas. Intenta de nuevo.",
+    "addCurrency": "Agregar Moneda",
+    "saveError": "No se pudo guardar la moneda. Intenta de nuevo.",
+    "deleteDialog": {
+      "title": "Eliminar moneda",
+      "message": "¿Seguro que deseas eliminar la moneda {code}? Esta acción no se puede deshacer."
+    }
+  },
+  "exchangeRates": {
+    "title": "Gestión de Tasa Bancaria",
+    "description": "Tasas de cambio expresadas en USD (moneda base del sistema) por unidad de divisa",
+    "register": "Registrar Tasa del Día",
+    "currency": "Divisa",
+    "rateValue": "Tasa (USD)",
+    "rateValuePerUsd": "Cuántos {code} equivalen a 1 USD",
+    "resolvedPreview": "Se guardará como {rate} USD por 1 {code}",
+    "history": "Historial de Tasas",
+    "effectiveDate": "Fecha",
+    "loading": "Cargando tasas...",
+    "fetchError": "No se pudieron cargar las tasas de cambio. Intenta de nuevo.",
+    "saving": "Guardando...",
+    "saveError": "No se pudo guardar la tasa. Intenta de nuevo.",
+    "unknownCurrencyError": "Esta moneda todavía no está registrada en el catálogo del backend."
+  },
+  "igtf": {
+    "title": "Gestión de IGTF",
+    "description": "Impuesto a las Grandes Transacciones Financieras",
+    "enabled": "IGTF Activo",
+    "enabledHint": "Aplica el impuesto a las facturas emitidas en divisas (USD, COP)",
+    "rate": "Alícuota",
+    "rateHint": "Porcentaje aplicado sobre el monto total pagado en divisas",
+    "legalNote": "El IGTF se aplica únicamente cuando la factura se emite en una moneda distinta a VES, calculado sobre el subtotal más IVA.",
+    "fetchError": "No se pudo cargar la configuración de IGTF. Intenta de nuevo.",
+    "saveError": "No se pudo guardar el cambio de IGTF. Intenta de nuevo."
+  },
+  "inventory": {
+    "title": "Inventario",
+    "summary": {
+      "products": "Productos registrados",
+      "categories": "Categorías registradas",
+      "lowStock": "Productos con stock bajo",
+      "pendingTransfers": "Transferencias pendientes",
+      "totalSku": "Total SKU",
+      "categoryColumn": "Categoría",
+      "inventoryValue": "Valor Inventario",
+      "newTransfer": "Nueva Transferencia",
+      "adjustInventory": "Ajustar Inventario",
+      "allCategories": "Todas las categorías",
+      "sufficientStock": "Suficiente"
+    },
+    "categories": {
+      "title": "Categorías",
+      "newCategory": "Nueva Categoría",
+      "editCategory": "Editar Categoría",
+      "empty": "No hay categorías registradas",
+      "notFound": "Categoría no encontrada",
+      "loading": "Cargando categorías...",
+      "fetchError": "No se pudieron cargar las categorías. Intenta de nuevo.",
+      "form": {
+        "codigo": "Código",
+        "name": "Nombre",
+        "description": "Descripción",
+        "isActive": "Categoría Activa",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar la categoría. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Categoría",
+        "message": "¿Seguro que deseas eliminar la categoría {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "warehouses": {
+      "title": "Almacenes",
+      "newWarehouse": "Nuevo Almacén",
+      "editWarehouse": "Editar Almacén",
+      "empty": "No hay almacenes registrados",
+      "notFound": "Almacén no encontrado",
+      "loading": "Cargando almacenes...",
+      "fetchError": "No se pudieron cargar los almacenes. Intenta de nuevo.",
+      "form": {
+        "codigo": "Código",
+        "generateCorrelativo": "Generar correlativo",
+        "name": "Nombre",
+        "sucursal": "Sucursal",
+        "selectSucursal": "Selecciona una sucursal",
+        "responsable": "Responsable",
+        "isActive": "Almacén Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el almacén. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Almacén",
+        "message": "¿Seguro que deseas eliminar el almacén {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "products": {
+      "title": "Productos",
+      "newProduct": "Nuevo Producto",
+      "editProduct": "Editar Producto",
+      "searchPlaceholder": "Buscar por nombre o código...",
+      "empty": "No hay productos registrados",
+      "notFound": "Producto no encontrado",
+      "loading": "Cargando productos...",
+      "fetchError": "No se pudieron cargar los productos. Intenta de nuevo.",
+      "lastModified": "Última Modificación",
+      "form": {
+        "codigo": "Código",
+        "name": "Nombre",
+        "categoriaId": "Categoría",
+        "monedaBaseId": "ID de Moneda",
+        "unit": "Unidad",
+        "weightKg": "Peso (kg)",
+        "weightKgHint": "Peso por unidad de venta. Se usa como base para calcular despachos y flete.",
+        "description": "Descripción",
+        "isActive": "Producto Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el producto. Intenta de nuevo.",
+        "referencia": "Referencia",
+        "marca": "Marca",
+        "modelo": "Modelo",
+        "departamentoId": "ID de Departamento",
+        "precioCosto": "Precio de costo",
+        "impuestoPorcentaje": "Impuesto (%)",
+        "capacidadContenido": "Capacidad de contenido",
+        "montoComision": "Monto de comisión",
+        "manejaLotes": "Maneja lotes",
+        "manejaSeriales": "Maneja seriales",
+        "permiteDecimales": "Permite decimales",
+        "sujetoComisionFija": "Sujeto a comisión fija",
+        "selectCategory": "Selecciona una categoría",
+        "selectCurrency": "Selecciona una moneda",
+        "monedaFetchError": "No se pudieron cargar las monedas.",
+        "loteInicial": "Número de lote",
+        "loteInicialHint": "Aún no se envía — el backend no tiene soporte de lotes todavía.",
+        "serialInicial": "Número de serial",
+        "serialInicialHint": "Aún no se envía — el backend no tiene soporte de seriales todavía."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Producto",
+        "message": "¿Seguro que deseas eliminar el producto {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "prices": {
+      "title": "Precios",
+      "cost": "Costo",
+      "price": "Precio de Venta",
+      "currency": "Moneda",
+      "margin": "Margen",
+      "costFor": "Costo de {name}",
+      "priceFor": "Precio de venta de {name}",
+      "currencyFor": "Moneda de {name}"
+    },
+    "seriales": {
+      "title": "Seriales",
+      "newSerial": "Nuevo Serial",
+      "editSerial": "Editar Serial",
+      "empty": "No hay seriales registrados",
+      "notFound": "Serial no encontrado",
+      "loading": "Cargando seriales...",
+      "fetchError": "No se pudieron cargar los seriales. Intenta de nuevo.",
+      "sold": "Vendido",
+      "available": "Disponible",
+      "form": {
+        "productoId": "Producto",
+        "selectProducto": "Selecciona un producto",
+        "numeroSerial": "Número de Serial",
+        "depositoId": "Depósito",
+        "selectDeposito": "Sin depósito",
+        "vendido": "Vendido",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el serial. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Serial",
+        "message": "¿Seguro que deseas eliminar el serial {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "lotes": {
+      "title": "Lotes",
+      "newLote": "Nuevo Lote",
+      "editLote": "Editar Lote",
+      "empty": "No hay lotes registrados",
+      "notFound": "Lote no encontrado",
+      "loading": "Cargando lotes...",
+      "fetchError": "No se pudieron cargar los lotes. Intenta de nuevo.",
+      "form": {
+        "productoId": "Producto",
+        "selectProducto": "Selecciona un producto",
+        "numeroLote": "Número de Lote",
+        "fechaVencimiento": "Fecha de Vencimiento",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el lote. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Lote",
+        "message": "¿Seguro que deseas eliminar el lote {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "control": {
+      "title": "Ajuste de Existencia",
+      "allWarehouses": "Todas las ubicaciones",
+      "warehouse": "Ubicación",
+      "quantity": "Cantidad",
+      "quantityFor": "Cantidad de {name}",
+      "minQuantity": "Cantidad Mínima",
+      "lowStock": "Stock Bajo",
+      "ok": "Normal",
+      "saveError": "No se pudo guardar la cantidad. Intenta de nuevo.",
+      "reason": "Motivo",
+      "reasonPlaceholder": "Ej. conteo físico, merma...",
+      "reasonFor": "Motivo del ajuste de {name}",
+      "history": {
+        "action": "Historial",
+        "title": "Historial de {name}",
+        "loading": "Cargando historial...",
+        "empty": "No hay movimientos registrados para este producto.",
+        "by": "Ajustado por: {name}",
+        "type": {
+          "CARGO": "Ingreso",
+          "DESCARGO": "Egreso",
+          "TRANSFERENCIA": "Transferencia"
+        }
+      },
+      "adjustment": {
+        "action": "Ajustar",
+        "title": "Ajustar Cantidad",
+        "currentQuantity": "Cantidad actual",
+        "newQuantity": "Nueva cantidad",
+        "reason": "Motivo",
+        "reasonPlaceholder": "Ej. conteo físico, merma, producto dañado...",
+        "reasonRequired": "El motivo es obligatorio para registrar el ajuste",
+        "saving": "Guardando...",
+        "reprint": "Reimprimir documento",
+        "documentTitle": "Documento de Ajuste de Inventario",
+        "quantityBefore": "Cantidad anterior",
+        "quantityAfter": "Cantidad nueva"
+      }
+    },
+    "transfers": {
+      "title": "Transferencias",
+      "newTransfer": "Nueva Transferencia",
+      "searchPlaceholder": "Buscar por código...",
+      "empty": "No hay transferencias registradas",
+      "dispatch": "Despachar",
+      "receive": "Recibir",
+      "actionError": "No se pudo completar la operación. Intenta de nuevo.",
+      "cancelDialog": {
+        "title": "Cancelar Transferencia",
+        "message": "¿Seguro que deseas cancelar la transferencia {code}? Esta acción no se puede deshacer."
+      },
+      "status": {
+        "REQUESTED": "Solicitado / En Preparación",
+        "IN_TRANSIT": "Despachado / En Tránsito",
+        "RECEIVED_PARTIAL": "Recibido Parcial (Con Novedad)",
+        "RECEIVED_CONFIRMED": "Recibido Conforme",
+        "CANCELLED": "Cancelada"
+      },
+      "category": {
+        "NEW_MERCHANDISE": "Ingreso Nuevo de Mercancía",
+        "BRANCH_TRANSFER": "Transferencia entre Sucursales",
+        "INTERNAL_SAMPLES": "Consumo Interno - Muestras y Exhibición",
+        "INTERNAL_TECH_TEST": "Consumo Interno - Pruebas Técnicas",
+        "QUALITY_QUARANTINE": "Control de Calidad (Cuarentena)",
+        "FRACTIONING_LOSS": "Merma por Fraccionamiento (Cortes)"
+      },
+      "form": {
+        "category": "Categoría",
+        "code": "Código",
+        "from": "Origen",
+        "to": "Destino",
+        "selectWarehouse": "Selecciona una ubicación",
+        "sameWarehouseError": "El origen y el destino no pueden ser iguales",
+        "items": "Productos",
+        "addItem": "Agregar producto",
+        "product": "Producto",
+        "selectProduct": "Selecciona un producto",
+        "quantity": "Cantidad",
+        "noItems": "Agrega al menos un producto",
+        "notes": "Notas"
+      },
+      "receiveDialog": {
+        "title": "Recibir Transferencia {code}",
+        "requested": "Solicitado: {quantity}",
+        "receivedQuantity": "Cantidad Recibida",
+        "notes": "Novedades",
+        "notesPlaceholder": "Ej. un rollo llegó dañado, falta 1 litro de tinta...",
+        "confirm": "Confirmar Recepción"
+      },
+      "detail": {
+        "createdAt": "Creada",
+        "updatedAt": "Última Actualización",
+        "requestedHeader": "Solicitado",
+        "receivedHeader": "Recibido",
+        "subtotal": "Subtotal",
+        "totalWeight": "Peso Total",
+        "totalCost": "Costo Total",
+        "discrepancyReport": "Informe de Novedades",
+        "discrepancyLine": "solicitado {requested}, recibido {received}"
+      },
+      "print": {
+        "reason": "Motivo",
+        "title": {
+          "NEW_MERCHANDISE": "Nota de Ingreso de Mercancía",
+          "BRANCH_TRANSFER": "Nota de Traslado entre Sucursales",
+          "INTERNAL_SAMPLES": "Nota de Consumo Interno — Muestras y Exhibición",
+          "INTERNAL_TECH_TEST": "Nota de Consumo Interno — Pruebas Técnicas",
+          "QUALITY_QUARANTINE": "Nota de Control de Calidad (Cuarentena)",
+          "FRACTIONING_LOSS": "Nota de Merma por Fraccionamiento"
+        }
+      }
+    },
+    "transformations": {
+      "title": "Transformaciones",
+      "newTransformation": "Nueva Transformación",
+      "viewHistory": "Ver historial",
+      "searchPlaceholder": "Buscar por número de documento...",
+      "empty": "No hay transformaciones registradas",
+      "date": "Fecha",
+      "fetchError": "No se pudieron cargar las transformaciones. Intenta de nuevo.",
+      "previewError": "No se pudo calcular la vista previa. Intenta de nuevo.",
+      "executeError": "No se pudo ejecutar la transformación. Intenta de nuevo.",
+      "success": "Transformación confirmada: {code}",
+      "status": {
+        "CONFIRMADA": "Confirmada",
+        "ANULADA": "Anulada"
+      },
+      "form": {
+        "code": "Documento",
+        "product": "Producto",
+        "warehouse": "Depósito",
+        "originPanel": "Entrada — Material a Consumir",
+        "resultPanel": "Salida — Productos Resultado",
+        "originWarehouse": "Almacén de Origen",
+        "destinationWarehouse": "Almacén de Destino",
+        "sameAsOrigin": "Mismo que el origen",
+        "cost": "Costo",
+        "weight": "Peso (kg)",
+        "totalCost": "Costo Total",
+        "totalWeight": "Peso Total",
+        "costDifference": "Diferencia de Costo",
+        "weightDifference": "Diferencia de Peso",
+        "noResultYet": "Calcula la vista previa para ver los productos resultado",
+        "selectProduct": "Selecciona un producto",
+        "selectWarehouse": "Selecciona un depósito",
+        "quantity": "Cantidad",
+        "notes": "Observación",
+        "addItem": "Agregar producto",
+        "calculatePreview": "Calcular vista previa",
+        "previewTitle": "Resultado de la transformación",
+        "confirm": "Confirmar transformación"
+      },
+      "print": {
+        "title": "Transformación de Inventario",
+        "preliminaryNote": "Documento no fiscal. La transformación aún no se ha confirmado: no mueve inventario."
+      }
+    },
+    "transformationRules": {
+      "title": "Reglas de Transformacion",
+      "subtitle": "Consulta las reglas activas y crea nuevas configuraciones sin tocar la base de datos.",
+      "backToTransformations": "Volver a transformaciones",
+      "types": {
+        "POR_METRO": "Por metro",
+        "ROLLO_A_METROS": "Rollo a metros",
+        "TAZAS": "Tazas",
+        "HOJILLA_COMBO": "Hojilla combo",
+        "SPLIT_FIJO": "Split fijo"
+      },
+      "typeDescriptions": {
+        "POR_METRO": "Fracciona el material en dos partes iguales usando el producto origen.",
+        "ROLLO_A_METROS": "Convierte rollos completos a metros con un factor numerico.",
+        "TAZAS": "Expande cajas a unidades usando el factor configurado.",
+        "HOJILLA_COMBO": "Agrupa unidades sueltas en combos segun el factor.",
+        "SPLIT_FIJO": "Desglosa un producto origen en varios items de salida predefinidos."
+      },
+      "examples": {
+        "useExample": "Usar ejemplo",
+        "POR_METRO": {
+          "title": "Vinilo 6010 de 1,22 m",
+          "description": "Ejemplo de fraccionamiento a la mitad para material por metro. Se usa como referencia operativa para cortes de 1,22 m."
+        },
+        "ROLLO_A_METROS": {
+          "title": "Rollo transfer de 100 m",
+          "description": "Un rollo completo se transforma en 100 metros usando factor 100."
+        },
+        "TAZAS": {
+          "title": "Caja de tazas a unidades",
+          "description": "Una caja de tazas con factor 36 representa 36 unidades individuales."
+        },
+        "HOJILLA_COMBO": {
+          "title": "Hojillas sueltas a combo",
+          "description": "Con factor 3, cada 3 hojillas disponibles generan 1 combo."
+        },
+        "SPLIT_FIJO": {
+          "title": "PAH 1,52 m a 1,00 m + 0,50 m",
+          "description": "Desglose fijo que produce una unidad de PAH 1 m y una unidad de PAH 0,50 m."
+        }
+      },
+      "form": {
+        "title": "Formulario",
+        "adminEnabled": "Modo admin",
+        "readOnly": "Solo lectura",
+        "readOnlyHelp": "Tu usuario puede consultar reglas, pero no crear nuevas. Se requiere el permiso inventario.admin para usar el formulario.",
+        "product": "Producto origen",
+        "selectProduct": "Selecciona un producto",
+        "type": "Tipo de regla",
+        "factor": "Factor",
+        "splitItems": "Productos resultado",
+        "selectSplitProduct": "Selecciona un producto resultado",
+        "addSplitItem": "Agregar resultado",
+        "save": "Guardar regla",
+        "saveError": "No se pudo guardar la regla. Intenta de nuevo.",
+        "success": "Regla creada para {product}."
+      },
+      "list": {
+        "title": "Listado activo",
+        "help": "Las reglas activas se consultan desde GET /inventario/reglas.",
+        "searchPlaceholder": "Buscar por codigo, nombre o tipo...",
+        "product": "Producto",
+        "type": "Tipo",
+        "factor": "Factor",
+        "result": "Resultado",
+        "sameProduct": "Mismo producto origen",
+        "notApplicable": "No aplica",
+        "empty": "No hay reglas registradas"
+      }
+    },
+
+    "inventoryPreliminares": {
+      "title": "Preliminares de Inventario",
+      "newPreliminar": "Nuevo Preliminar",
+      "pending": "Pendientes",
+      "empty": "No hay preliminares pendientes",
+      "apply": "Aplicar al stock",
+      "fetchError": "No se pudieron cargar los preliminares. Intenta de nuevo.",
+      "saveError": "No se pudo guardar el preliminar. Intenta de nuevo.",
+      "applyError": "No se pudo aplicar el preliminar. Intenta de nuevo.",
+      "tipo": {
+        "INV_CARGO": "Cargo (ingreso)",
+        "INV_DESCARGO": "Descargo (egreso)"
+      },
+      "form": {
+        "tipo": "Tipo",
+        "warehouse": "Depósito",
+        "etiqueta": "Etiqueta",
+        "items": "Productos",
+        "save": "Guardar preliminar"
+      },
+      "applyDialog": {
+        "title": "Aplicar al stock",
+        "message": "¿Aplicar el preliminar \"{label}\" al stock real? Esta acción no se puede deshacer."
+      }
+    }
+  },
+  "customers": {
+    "title": "Clientes",
+    "newCustomer": "Nuevo Cliente",
+    "editCustomer": "Editar Cliente",
+    "searchPlaceholder": "Buscar por nombre o documento...",
+    "empty": "No hay clientes registrados",
+    "loading": "Cargando clientes...",
+    "fetchError": "No se pudieron cargar los clientes. Intenta de nuevo.",
+    "notFound": "Cliente no encontrado",
+    "list": {
+      "name": "Nombre",
+      "specialTaxpayer": "Contrib. Especial"
+    },
+    "form": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "documentType": "Tipo de Documento",
+      "documentNumber": "Número de Documento",
+      "documentNumberHint": "Solo números; si es RIF, el dígito verificador va después de un guion (ej. 12345678-9)",
+      "email": "Correo Electrónico",
+      "emailHint": "Debe contener {'@'} y un dominio válido (ej. .com, .net, .org, .co)",
+      "phone": "Teléfono",
+      "phoneHint": "Formato local: 0424-123-4567 (11 dígitos). Con código de país: +58-424-123-4567",
+      "creditLimit": "Límite de Crédito",
+      "paymentTermsDays": "Días de Crédito",
+      "notes": "Notas",
+      "isSpecialTaxpayer": "Contribuyente Especial (SENIAT)",
+      "saving": "Guardando...",
+      "saveError": "No se pudo guardar el cliente. Intenta de nuevo."
+    },
+    "deleteDialog": {
+      "title": "Eliminar Cliente",
+      "message": "¿Seguro que deseas eliminar a {name}? Esta acción no se puede deshacer."
+    }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La ruta solicitada no existe.",
+    "backHome": "Volver al inicio"
+  },
+  "forbidden": {
+    "title": "Acceso denegado",
+    "description": "Tu rol no tiene permiso para ver esta sección.",
+    "backHome": "Volver al inicio"
+  },
+  "master": {
+    "bancos": {
+      "title": "Bancos",
+      "newBanco": "Nuevo Banco",
+      "editBanco": "Editar Banco",
+      "empty": "No hay bancos registrados",
+      "notFound": "Banco no encontrado",
+      "loading": "Cargando bancos...",
+      "fetchError": "No se pudieron cargar los bancos. Intenta de nuevo.",
+      "form": {
+        "codigo": "Código",
+        "nombre": "Nombre",
+        "isActive": "Banco Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el banco. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Banco",
+        "message": "¿Seguro que deseas eliminar el banco {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "empresas": {
+      "title": "Empresas",
+      "newEmpresa": "Nueva Empresa",
+      "editEmpresa": "Editar Empresa",
+      "empty": "No hay empresas registradas",
+      "notFound": "Empresa no encontrada",
+      "loading": "Cargando empresas...",
+      "fetchError": "No se pudieron cargar las empresas. Intenta de nuevo.",
+      "form": {
+        "nombre": "Nombre",
+        "siglas": "Siglas",
+        "rif": "RIF",
+        "nit": "NIT",
+        "direccionFiscal": "Dirección Fiscal",
+        "direccionDespacho": "Dirección de Despacho",
+        "telefono": "Teléfono",
+        "email": "Correo Electrónico",
+        "website": "Sitio Web",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar la empresa. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Empresa",
+        "message": "¿Seguro que deseas eliminar la empresa {name}? Esta acción no se puede deshacer.",
+        "error": "No se pudo eliminar la empresa. Intenta de nuevo."
+      }
+    },
+    "sucursales": {
+      "title": "Sucursales",
+      "newSucursal": "Nueva Sucursal",
+      "editSucursal": "Editar Sucursal",
+      "empty": "No hay sucursales registradas",
+      "notFound": "Sucursal no encontrada",
+      "loading": "Cargando sucursales...",
+      "fetchError": "No se pudieron cargar las sucursales. Intenta de nuevo.",
+      "form": {
+        "empresaId": "Empresa",
+        "selectEmpresa": "Selecciona una empresa",
+        "codigo": "Código",
+        "siglas": "Siglas",
+        "siglasHint": "Por defecto toma las siglas de la empresa seleccionada — puedes cambiarlas.",
+        "nombre": "Nombre",
+        "direccion": "Dirección",
+        "telefono": "Teléfono",
+        "isActive": "Sucursal Activa",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar la sucursal. Intenta de nuevo.",
+        "catalogTitle": "Catálogo de Tipos de Documento",
+        "catalogDescription": "Se crea automáticamente junto con la sucursal, para que pueda emitir facturas, devoluciones y traslados desde el primer día. Ajusta el prefijo de cada uno si lo necesitas.",
+        "catalogError": "La sucursal se creó, pero no se pudo terminar de crear su catálogo de tipos de documento. Complétalo manualmente en Maestros > Tipos de Documentos.",
+        "warehouseTitle": "Almacén Inicial (opcional)",
+        "warehouseDescription": "Sin al menos un almacén, esta sucursal no podrá facturar — cualquier vendedor asignado a ella no tendrá inventario para vender. Puedes dejarlo en blanco y crear el almacén más tarde desde Inventario > Almacenes, pero se recomienda hacerlo ahora.",
+        "warehouseError": "La sucursal se creó, pero no se pudo crear el almacén inicial. Créalo manualmente en Inventario > Almacenes antes de asignar vendedores a esta sucursal."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Sucursal",
+        "message": "¿Seguro que deseas eliminar la sucursal {name}? Esta acción no se puede deshacer.",
+        "error": "No se pudo eliminar la sucursal. Intenta de nuevo."
+      }
+    },
+    "roles": {
+      "title": "Roles",
+      "newRol": "Nuevo Rol",
+      "editRol": "Editar Rol",
+      "empty": "No hay roles registrados",
+      "notFound": "Rol no encontrado",
+      "loading": "Cargando roles...",
+      "fetchError": "No se pudieron cargar los roles. Intenta de nuevo.",
+      "form": {
+        "nombre": "Nombre",
+        "descripcion": "Descripción",
+        "isActive": "Rol Activo",
+        "modulosPermitidos": "Módulos y Permisos del Sistema",
+        "searchPlaceholder": "Buscar permisos por nombre, módulo o descripción...",
+        "selectAll": "Seleccionar todos",
+        "deselectAll": "Deseleccionar todos",
+        "selectedCount": "{selected} de {total} permisos seleccionados",
+        "selectModule": "Marcar módulo",
+        "deselectModule": "Desmarcar módulo",
+        "noPermisosFound": "No se encontraron permisos que coincidan con la búsqueda.",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el rol. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Rol",
+        "message": "¿Seguro que deseas eliminar el rol {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "cuentasBancarias": {
+      "title": "Cuentas Bancarias",
+      "newCuenta": "Nueva Cuenta Bancaria",
+      "editCuenta": "Editar Cuenta Bancaria",
+      "empty": "No hay cuentas bancarias registradas",
+      "notFound": "Cuenta bancaria no encontrada",
+      "loading": "Cargando cuentas bancarias...",
+      "fetchError": "No se pudieron cargar las cuentas bancarias. Intenta de nuevo.",
+      "form": {
+        "bancoId": "Banco",
+        "selectBanco": "Selecciona un banco",
+        "numeroCuenta": "Número de Cuenta",
+        "monedaId": "Moneda",
+        "selectMoneda": "Selecciona una moneda",
+        "tipoCuenta": "Tipo de Cuenta",
+        "selectTipoCuenta": "Ninguno",
+        "descripcion": "Descripción",
+        "saldoConciliado": "Saldo Conciliado",
+        "isActive": "Cuenta Activa",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar la cuenta bancaria. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Cuenta Bancaria",
+        "message": "¿Seguro que deseas eliminar la cuenta bancaria {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "parametros": {
+      "title": "Parámetros Fiscales",
+      "newParametro": "Nuevo Parámetro",
+      "editParametro": "Editar Parámetro",
+      "empty": "No hay parámetros fiscales registrados",
+      "notFound": "Parámetro fiscal no encontrado",
+      "loading": "Cargando parámetros fiscales...",
+      "fetchError": "No se pudieron cargar los parámetros fiscales. Intenta de nuevo.",
+      "form": {
+        "codigo": "Código",
+        "descripcion": "Descripción",
+        "porcentaje": "Porcentaje",
+        "vigenteDesde": "Vigente Desde",
+        "vigenteHasta": "Vigente Hasta",
+        "isActive": "Parámetro Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el parámetro fiscal. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Parámetro Fiscal",
+        "message": "¿Seguro que deseas eliminar el parámetro {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "metodosPago": {
+      "title": "Métodos de Pago",
+      "newMetodo": "Nuevo Método de Pago",
+      "editMetodo": "Editar Método de Pago",
+      "empty": "No hay métodos de pago registrados",
+      "notFound": "Método de pago no encontrado",
+      "loading": "Cargando métodos de pago...",
+      "fetchError": "No se pudieron cargar los métodos de pago. Intenta de nuevo.",
+      "form": {
+        "codigo": "Código",
+        "nombre": "Nombre",
+        "monedaId": "Moneda",
+        "selectMoneda": "Selecciona una moneda",
+        "requiereCuentaBancaria": "Requiere Cuenta Bancaria",
+        "isActive": "Método Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el método de pago. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Método de Pago",
+        "message": "¿Seguro que deseas eliminar el método {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "vendedores": {
+      "title": "Vendedores",
+      "newVendedor": "Nuevo Vendedor",
+      "editVendedor": "Editar Vendedor",
+      "empty": "No hay vendedores registrados",
+      "notFound": "Vendedor no encontrado",
+      "loading": "Cargando vendedores...",
+      "fetchError": "No se pudieron cargar los vendedores. Intenta de nuevo.",
+      "form": {
+        "codigo": "Código",
+        "nombre": "Nombre",
+        "email": "Correo Electrónico",
+        "telefono": "Teléfono",
+        "comisionPorcentaje": "Comisión (%)",
+        "isActive": "Vendedor Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el vendedor. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Vendedor",
+        "message": "¿Seguro que deseas eliminar al vendedor {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "proveedores": {
+      "title": "Proveedores",
+      "newProveedor": "Nuevo Proveedor",
+      "editProveedor": "Editar Proveedor",
+      "empty": "No hay proveedores registrados",
+      "notFound": "Proveedor no encontrado",
+      "loading": "Cargando proveedores...",
+      "fetchError": "No se pudieron cargar los proveedores. Intenta de nuevo.",
+      "saldoActual": "Saldo Actual",
+      "form": {
+        "codigo": "Código",
+        "nombre": "Nombre",
+        "rif": "RIF",
+        "nit": "NIT",
+        "direccion": "Dirección",
+        "telefono": "Teléfono",
+        "email": "Correo Electrónico",
+        "monedaCuentaId": "Moneda de Cuenta",
+        "selectMoneda": "Selecciona una moneda",
+        "diasCredito": "Días de Crédito",
+        "isActive": "Proveedor Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el proveedor. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Proveedor",
+        "message": "¿Seguro que deseas eliminar al proveedor {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "usuarios": {
+      "title": "Usuarios",
+      "newUsuario": "Nuevo Usuario",
+      "editUsuario": "Editar Usuario",
+      "empty": "No hay usuarios registrados",
+      "notFound": "Usuario no encontrado",
+      "loading": "Cargando usuarios...",
+      "fetchError": "No se pudieron cargar los usuarios. Intenta de nuevo.",
+      "form": {
+        "username": "Usuario",
+        "nombreCompleto": "Nombre Completo",
+        "password": "Contraseña",
+        "passwordEditHint": "Déjalo vacío para mantener la contraseña actual.",
+        "email": "Correo Electrónico",
+        "rolId": "Rol",
+        "selectRol": "Sin rol",
+        "sucursalId": "Sucursal",
+        "selectSucursal": "Sin sucursal",
+        "modulosHeredados": "Módulos permitidos (heredados del rol)",
+        "modulosHeredadosEmpty": "Este rol no tiene módulos asignados todavía",
+        "isActive": "Usuario Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el usuario. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Usuario",
+        "message": "¿Seguro que deseas eliminar el usuario {name}? Esta acción no se puede deshacer."
+      }
+    },
+    "tiposDocumentos": {
+      "title": "Tipos de Documentos",
+      "description": "Correlativos de numeración de facturas, devoluciones y traslados, por sucursal.",
+      "newTipoDocumento": "Nuevo Tipo de Documento",
+      "editTipoDocumento": "Editar Tipo de Documento",
+      "empty": "No hay tipos de documentos registrados",
+      "notFound": "Tipo de documento no encontrado",
+      "loading": "Cargando tipos de documentos...",
+      "fetchError": "No se pudieron cargar los tipos de documentos. Intenta de nuevo.",
+      "form": {
+        "sucursalId": "Sucursal",
+        "selectSucursal": "Selecciona una sucursal",
+        "codigo": "Código",
+        "codigoPlaceholder": "Ej. FAC, DEV, TR",
+        "nombre": "Nombre",
+        "prefijo": "Prefijo",
+        "longitudFormato": "Longitud del correlativo",
+        "longitudFormatoHint": "Cantidad de dígitos con ceros a la izquierda (ej. 8 → 00000001).",
+        "correlativoActual": "Correlativo actual",
+        "correlativoActualHint": "Cambiar este número puede causar documentos duplicados o saltados. Edítalo solo si sabes lo que haces.",
+        "isActive": "Tipo de Documento Activo",
+        "saving": "Guardando...",
+        "saveError": "No se pudo guardar el tipo de documento. Intenta de nuevo."
+      },
+      "deleteDialog": {
+        "title": "Eliminar Tipo de Documento",
+        "message": "¿Seguro que deseas eliminar {name}? Las facturas/devoluciones/traslados de esa sucursal dejarán de poder emitirse hasta que se registre de nuevo."
+      }
+    }
+  },
+  "reports": {
+    "title": "Informes",
+    "loading": "Cargando...",
+    "totals": "Totales",
+    "tabs": {
+      "sales": "Ventas / Facturación",
+      "inventory": "Inventario / Stock",
+      "receivable": "Cuentas por Cobrar"
+    },
+    "sales": {
+      "dateFrom": "Desde",
+      "dateTo": "Hasta",
+      "customer": "Cliente",
+      "customerPlaceholder": "Buscar por nombre de cliente...",
+      "allStatuses": "Todos",
+      "pending": "Pendiente",
+      "fetchError": "No se pudieron cargar las facturas. Intenta de nuevo."
+    },
+    "inventory": {
+      "allWarehouses": "Todos los almacenes",
+      "quantity": "Existencia",
+      "totalValue": "Valor Total"
+    },
+    "accountsReceivable": {
+      "fetchError": "No se pudieron cargar las cuentas por cobrar. Intenta de nuevo."
+    },
+    "receivable": {
+      "document": "Documento",
+      "dueDate": "Vencimiento",
+      "originalAmount": "Monto Original",
+      "pendingBalance": "Saldo Pendiente",
+      "pending": "Pendiente",
+      "paid": "Pagado",
+      "overdue": "vencida"
+    }
+  },
+  "dashboard": {
+    "title": "Resumen Ejecutivo",
+    "subtitle": "Bienvenido de nuevo. Aquí está el estado actual de tu operación.",
+    "noAccess": "No tienes módulos con datos para mostrar aquí todavía. Usa el menú lateral para navegar.",
+    "kpis": {
+      "salesToday": "Ventas Hoy",
+      "vsYesterday": "vs. {amount} ayer",
+      "receivable": "Por Cobrar",
+      "overdueCount": "{count} facturas vencidas",
+      "noOverdue": "Sin facturas vencidas",
+      "lowStock": "Stock Bajo",
+      "lowStockHint": "Ítems requieren reposición",
+      "taxes": "Impuestos (Mes)",
+      "taxesHint": "IVA + IGTF facturado"
+    },
+    "salesTrend": {
+      "title": "Tendencia de Ventas (7 Días)"
+    },
+    "lowStockAlerts": {
+      "title": "Alertas de Inventario",
+      "viewAll": "Ver todo el inventario",
+      "empty": "No hay productos con stock bajo",
+      "min": "Mín: {value}"
+    },
+    "recentTransactions": {
+      "title": "Transacciones Recientes",
+      "viewAll": "Ver historial completo de facturas",
+      "empty": "Aún no hay facturas registradas"
+    }
+  },
+  "preliminares": {
+    "picker": {
+      "title": "Cargar preliminar",
+      "subtitle": "Documentos guardados sin emitir. Al cargarlos se recalculan precios y tasa del día.",
+      "searchPlaceholder": "Buscar por cliente o usuario…",
+      "loading": "Cargando preliminares…",
+      "empty": "No hay preliminares guardados.",
+      "confirmDelete": "Sí, borrar",
+      "items": "{count} ítem | {count} ítems"
+    },
+    "saved": "Preliminar guardado.",
+    "saveError": "No se pudo guardar el preliminar.",
+    "loadError": "No se pudo cargar el preliminar.",
+    "overwriteConfirm": "Ya hay productos cargados. Si continúas se reemplazan por los del preliminar.",
+    "noCustomer": "Sin cliente",
+    "legend": "PRELIMINAR",
+    "printNote": "Documento no fiscal. Los precios están sujetos a la tasa de cambio del día de emisión.",
+    "loaded": "Preliminar cargado.",
+    "adjusted": {
+      "title": "Se ajustaron algunas líneas al cargar:",
+      "missingProduct": "{name}: el producto ya no existe o está inactivo.",
+      "noPrice": "{name}: el producto no tiene precio vigente.",
+      "clamped": "{name}: la cantidad se redujo de {requested} a {available} por existencia disponible.",
+      "noStock": "{name}: sin existencia disponible, no se cargó.",
+      "missingCustomer": "El cliente guardado ya no existe: elige uno antes de emitir.",
+      "missingWarehouse": "El almacén guardado ya no está disponible: elige uno antes de emitir."
+    },
+    "transferPrintNote": "Documento no fiscal. La transferencia aún no se ha emitido: no mueve inventario.",
+    "groupLabel": "Documento preliminar",
+    "actions": {
+      "save": "Guardar",
+      "load": "Cargar",
+      "print": "Imprimir"
+    },
+    "overwriteTitle": "Reemplazar el pedido actual",
+    "overwriteAccept": "Reemplazar"
+  }
+}

@@ -1,0 +1,6 @@
+allowBuilds:
+  '@scarf/scarf': false
+  bcrypt: set this to true or false
+  unrs-resolver: false
+minimumReleaseAgeExclude:
+  - '@nestjs/swagger@11.4.6'

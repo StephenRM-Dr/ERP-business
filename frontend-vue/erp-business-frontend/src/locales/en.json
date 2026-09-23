@@ -1,0 +1,1383 @@
+{
+  "auth": {
+    "title": "Sign In",
+    "username": "Username",
+    "usernamePlaceholder": "username",
+    "password": "Password",
+    "submit": "Sign In",
+    "submitting": "Signing in...",
+    "invalidCredentials": "Invalid username or password",
+    "logout": "Sign Out"
+  },
+  "common": {
+    "search": "Search...",
+    "save": "Save",
+    "saving": "Saving...",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "remove": "Remove",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "actions": "Actions",
+    "noResults": "No results found",
+    "comingSoon": "Module under construction",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pagination": {
+      "showing": "Showing {from}–{to} of {total}",
+      "perPage": "Per page",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {page} of {total}"
+    }
+  },
+  "sidebar": {
+    "appName": "CORE ERP",
+    "dashboard": "Dashboard",
+    "invoices": "Invoicing",
+    "invoicesList": "Invoice List",
+    "invoicesSellWithoutStock": "Sell without stock (special permission)",
+    "invoicesPriceNational": "Invoice at National Price (Foreign & Bs)",
+    "invoicesPriceLocal": "Invoice at Local Store Price (Foreign & Bs)",
+    "invoicesEditPrice": "Edit Price in Invoicing (Wholesale Price)",
+    "generalViewAllLocations": "View all locations (special permission)",
+    "posTerminal": "Point of Sale (POS)",
+    "newSale": "New Sale",
+    "returns": "Returns",
+    "currencies": "Currencies",
+    "exchangeRates": "Bank Rate",
+    "igtf": "IGTF",
+    "inventory": "Inventory",
+    "inventorySummary": "Summary",
+    "inventoryProducts": "Products",
+    "inventoryPrices": "Prices",
+    "inventoryControl": "Stock Adjustment",
+    "inventoryTransfers": "Transfers",
+    "inventoryCargos": "Cargo",
+    "inventoryDescargos": "Descargo",
+    "inventoryKardex": "Kardex Movements",
+    "inventoryTransformations": "Transformations",
+        "inventoryTransformationRules": "Transformation Rules",
+    "inventoryTransformationRulesAdmin": "Manage Transformation Rules",
+    "inventoryInventoryPreliminares": "Inventory Preliminaries",
+    "inventoryNacional": "Approve preliminaries and operate across all branches",
+    "masterImpresoras": "Printers by Branch",
+    "workshop": "Workshop",
+    "corte": "Cutting Orders (Workshop)",
+    "inventoryWarehouses": "Warehouses",
+    "inventoryCategories": "Categories",
+    "customers": "Customers",
+    "payables": "Accounts Payable",
+    "master": "Master",
+    "masterBancos": "Banks",
+    "masterEmpresas": "Companies",
+    "masterSucursales": "Branches",
+    "masterRoles": "Roles",
+    "masterCuentasBancarias": "Bank Accounts",
+    "masterUsuarios": "Users",
+    "masterTiposDocumentos": "Document Types",
+    "masterInformes": "Reports",
+    "masterProveedores": "Suppliers",
+    "masterVendedores": "Salespeople",
+    "masterParametros": "Tax Parameters",
+    "masterMetodosPago": "Payment Methods",
+    "inventoryLotes": "Batches",
+    "inventorySeriales": "Serial Numbers",
+    "purchases": "Purchases",
+    "comprasList": "Purchase Invoices",
+    "supplierPayments": "Supplier Payments",
+    "cuentasCobrar": "Accounts Receivable",
+    "collectionReceipts": "Collection Receipts",
+    "documentCancellations": "Document Cancellations",
+    "maintenance": "Masters",
+    "transactions": "Transactions",
+    "clientsGroup": "Customers (AR)",
+    "suppliersGroup": "Suppliers (AP)",
+    "banksGroup": "Banks",
+    "sales": "Sales",
+    "reports": "Reports",
+    "repInventario": "Inventory",
+    "repInvGeneral": "General Report",
+    "repInvKardex": "Units Movement",
+    "repInvStockBajo": "Low Stock by Store",
+    "repInvFisico": "Physical Inventory",
+    "repInvReposicion": "Inventory Restock",
+    "repInvPrecios": "Price List",
+    "repInvOfertas": "Offers and Packages",
+    "repInvRentabilidad": "Product Profitability",
+    "repInvSinMovimiento": "Dead Stock",
+    "repOperaciones": "Inventory Operations",
+    "repOpsOperaciones": "Operations",
+    "repOpsProductos": "Operations by Products",
+    "repClientes": "Customers",
+    "repCliGeneral": "General Customers",
+    "repCliCxcTienda": "Accounts Receivable by Store",
+    "repCliEstadoCuenta": "Account Statement",
+    "repCliCuentasCobrar": "Accounts Receivable",
+    "repCliVencimientos": "Aging Analysis",
+    "repCliRelacionCobros": "Collections Report",
+    "repCliRetencion": "Tax Retention",
+    "repProveedores": "Suppliers",
+    "repProvGeneral": "General Suppliers",
+    "repVentas": "Sales",
+    "repVenDiario": "Daily Sales (Closing / Operations)",
+    "repVenResumen": "Sales Summary",
+    "repVenPorTienda": "Sales by Store (Daily)",
+    "repVenPorVendedor": "Sales by Salesperson",
+    "repCompras": "Purchases",
+    "repComResumen": "Purchases Summary",
+    "repResumenes": "Summaries",
+    "repResGeneral": "General Summary",
+    "repResVentasTienda": "Store Sales Summary",
+    "system": "System",
+    "restablecerSistema": "Reset System"
+  },
+  "navbar": {
+    "title": "Cloud Administration",
+    "userSession": "User Session"
+  },
+  "cuentasPagar": {
+    "title": "Accounts Payable",
+    "empty": "No accounts payable registered",
+    "loading": "Loading accounts payable...",
+    "fetchError": "Could not load accounts payable. Try again.",
+    "numeroDocumento": "Document",
+    "proveedor": "Supplier",
+    "fechaVencimiento": "Due Date",
+    "montoOriginal": "Original Amount",
+    "saldoPendiente": "Balance Due",
+    "editDialog": {
+      "title": "Edit Account Payable",
+      "message": "Administrative correction for document {name}."
+    }
+  },
+  "recibosCobro": {
+    "title": "Collection Receipts",
+    "newRecibo": "New Collection Receipt",
+    "empty": "No collection receipts registered",
+    "loading": "Loading collection receipts...",
+    "fetchError": "Could not load collection receipts. Try again.",
+    "numeroRecibo": "Number",
+    "fechaPago": "Date",
+    "cliente": "Customer",
+    "formaPago": "Payment Method",
+    "form": {
+      "selectCustomer": "Select a customer",
+      "customerSearchPlaceholder": "Search customer by name or document number",
+      "changeCustomer": "Change",
+      "monedaPago": "Payment Currency",
+      "selectMoneda": "Select a currency",
+      "tasaCambio": "Exchange Rate",
+      "metodoPago": "Payment Method",
+      "selectMetodo": "Select a method",
+      "cuentaBancaria": "Bank Account",
+      "cuentasPendientes": "Pending Accounts Receivable",
+      "loadingCuentas": "Loading pending accounts...",
+      "noCuentasPendientes": "This customer has no pending accounts in this currency.",
+      "fechaVencimiento": "Due Date",
+      "saldoPendiente": "Balance Due",
+      "montoAplicar": "Amount to Apply",
+      "montoTotal": "Receipt Total",
+      "igtf": "IGTF ({rate}%)",
+      "observaciones": "Notes",
+      "saving": "Saving...",
+      "saveError": "Could not register the receipt. Try again."
+    },
+    "cuentasFetchError": "Could not load the customer's pending accounts."
+  },
+  "pagosProveedores": {
+    "title": "Supplier Payments",
+    "newPago": "New Supplier Payment",
+    "empty": "No supplier payments registered",
+    "loading": "Loading supplier payments...",
+    "fetchError": "Could not load supplier payments. Try again.",
+    "numeroPago": "Number",
+    "fechaPago": "Date",
+    "proveedor": "Supplier",
+    "formaPago": "Payment Method",
+    "form": {
+      "selectProveedor": "Select a supplier",
+      "proveedorSearchPlaceholder": "Search supplier by name or tax ID",
+      "changeProveedor": "Change",
+      "numeroPago": "Payment Number",
+      "monedaPago": "Payment Currency",
+      "selectMoneda": "Select a currency",
+      "tasaCambio": "Exchange Rate",
+      "metodoPago": "Payment Method",
+      "selectMetodo": "No specific method",
+      "cuentaBancaria": "Bank Account",
+      "selectCuenta": "Select an account",
+      "cuentasPendientes": "Pending Accounts Payable",
+      "loadingCuentas": "Loading pending accounts...",
+      "noCuentasPendientes": "This supplier has no pending accounts in this currency.",
+      "montoAplicar": "Amount to Apply",
+      "montoTotal": "Payment Total",
+      "igtf": "IGTF ({rate}%)",
+      "observaciones": "Notes",
+      "saving": "Saving...",
+      "saveError": "Could not register the payment. Try again."
+    },
+    "cuentasFetchError": "Could not load the supplier's pending accounts."
+  },
+  "compras": {
+    "title": "Purchases",
+    "newCompra": "New Purchase Invoice",
+    "empty": "No purchase invoices registered",
+    "loading": "Loading purchase invoices...",
+    "fetchError": "Could not load purchase invoices. Try again.",
+    "numeroFactura": "Invoice Number",
+    "fechaEmision": "Issue Date",
+    "proveedor": "Supplier",
+    "anular": "Void",
+    "anularDialog": {
+      "title": "Void Purchase Invoice",
+      "message": "Are you sure you want to void invoice {name}? Its associated account payable will also be voided."
+    },
+    "form": {
+      "selectProveedor": "Select a supplier",
+      "proveedorSearchPlaceholder": "Search supplier by name or tax ID",
+      "changeProveedor": "Change",
+      "numeroFactura": "Invoice Number",
+      "fechaVencimiento": "Due Date",
+      "deposito": "Warehouse",
+      "selectDeposito": "Select a warehouse",
+      "moneda": "Currency",
+      "selectMoneda": "Select a currency",
+      "tasaCambio": "Exchange Rate",
+      "productSearchPlaceholder": "Search product by code or name...",
+      "producto": "Product",
+      "cantidad": "Quantity",
+      "costoUnitario": "Unit Cost",
+      "impuestoPorcentaje": "Tax (%)",
+      "exento": "Exempt",
+      "netoLinea": "Net",
+      "emptyCart": "Add products using the search box",
+      "totalBruto": "Subtotal",
+      "montoIva": "Tax",
+      "igtf": "IGTF ({rate}%)",
+      "totalNeto": "Total Due",
+      "observaciones": "Notes",
+      "saving": "Saving...",
+      "saveError": "Could not register the purchase invoice. Try again."
+    }
+  },
+  "invoices": {
+    "title": "New Invoice",
+    "listTitle": "Invoices",
+    "newInvoice": "New Invoice",
+    "searchPlaceholder": "Search product by code or name...",
+    "productCode": "Code",
+    "productName": "Product",
+    "price": "Price",
+    "stock": "Stock",
+    "outOfStock": "No stock available",
+    "maxStockReached": "Maximum quantity based on stock: {stock}",
+    "cart": {
+      "title": "Invoice Detail",
+      "empty": "Add products using the search box",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "subtotal": "Subtotal",
+      "remove": "Remove"
+    },
+    "payment": {
+      "title": "Payment Terms",
+      "method": "Payment Method",
+      "cash": "Cash",
+      "credit": "Credit",
+      "termsDays": "Due Days",
+      "customer": "Customer",
+      "selectCustomer": "Select a customer",
+      "customerSearchPlaceholder": "Search customer by name or document number",
+      "changeCustomer": "Change"
+    },
+    "notes": {
+      "title": "Comments / Notes",
+      "placeholder": "Internal notes, delivery instructions, etc. (optional)"
+    },
+    "totals": {
+      "subtotal": "Subtotal",
+      "freight": "Freight",
+      "discount": "Discount",
+      "discountPlaceholder": "0 or 10%",
+      "discountApplied": "Discount applied: {amount}",
+      "tax": "VAT (16%)",
+      "igtf": "IGTF ({rate}%)",
+      "total": "Total to Pay"
+    },
+    "submit": "Issue Invoice",
+    "submitting": "Issuing...",
+    "submitted": "Invoice logged to console (check DevTools)",
+    "issued": "Invoice {number} issued successfully",
+    "submitError": "Could not issue the invoice on the server. Check the data and try again.",
+    "newSale": "New Sale",
+    "print": {
+      "title": "Invoice",
+      "printButton": "Print",
+      "controlNumber": "Control No.",
+      "customer": "Customer",
+      "paymentCondition": "Payment Condition",
+      "cash": "Cash",
+      "credit": "Credit",
+      "rate": "Rate applied",
+      "product": "Product",
+      "quantity": "Qty.",
+      "unitPrice": "Unit Price",
+      "lineSubtotal": "Subtotal",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "igtf": "IGTF",
+      "total": "Total",
+      "payments": "Payments",
+      "notes": "Notes",
+      "voided": "VOIDED INVOICE",
+      "voidReason": "Void reason",
+      "time": "Time",
+      "issuedBy": "Salesperson",
+      "priceListLocal": "Local",
+      "priceListDivisa": "Precio 50",
+      "discount": "Discount"
+    },
+    "currency": {
+      "title": "Invoice Currency",
+      "rateInUse": "Applied rate",
+      "missingRate": "There is no bank rate registered for this currency. Register it under Bank Rate."
+    },
+    "warehouse": {
+      "title": "Dispatch warehouse",
+      "noneAvailable": "Your branch has no warehouse assigned. Contact an administrator to register one before you can invoice."
+    },
+    "list": {
+      "searchPlaceholder": "Search by number or customer...",
+      "number": "Number",
+      "customer": "Customer",
+      "date": "Date",
+      "currency": "Currency",
+      "status": "Status",
+      "loading": "Loading invoices...",
+      "allPaymentConditions": "Cash and Credit",
+      "allEmpresas": "All companies",
+      "allSucursales": "All branches"
+    },
+    "status": {
+      "issued": "Issued",
+      "partially_returned": "Partial Return",
+      "returned": "Returned",
+      "voided": "Voided"
+    },
+    "statusFilter": {
+      "all": "All",
+      "issued": "Issued",
+      "partially_returned": "Partial Returns",
+      "returned": "Returned",
+      "voided": "Voided"
+    },
+    "actions": {
+      "return": "Return",
+      "void": "Void"
+    },
+    "payments": {
+      "title": "Registered Payments",
+      "method": "Payment Method",
+      "amount": "Amount",
+      "add": "Add Payment",
+      "useRemaining": "Use remaining",
+      "none": "No payments registered",
+      "equivalent": "Equals",
+      "paid": "Total Paid",
+      "remaining": "Remaining to Pay",
+      "change": "Change",
+      "incomplete": "Registered payments do not cover the invoice total",
+      "igtfNote": "IGTF ({rate}%) is applied only to the portion paid in foreign currency, not to the invoice total.",
+      "cuentaBancaria": "Receiving account",
+      "selectCuenta": "Select an account",
+      "noCuentas": "No active bank accounts registered",
+      "missingCuenta": "Select the account receiving the payment",
+      "cuentaCreditError": "Invoice {number} issued, but the bank account balance could not be updated. Please verify it manually.",
+      "methods": {
+        "cash": "Cash",
+        "card": "POS Terminal",
+        "transfer": "Transfer",
+        "mobilePayment": "Mobile Payment",
+        "anticipo": "Advance Payment (Anticipo)"
+      }
+    },
+    "voidDialog": {
+      "title": "Invoice Voiding",
+      "message": "Do you confirm voiding invoice {number}? This action cannot be undone.",
+      "reason": "Voiding reason",
+      "reasonPlaceholder": "E.g.: wrong customer data",
+      "reasonRequired": "A reason is required to void",
+      "error": "Could not void the invoice on the server. Please try again."
+    },
+    "correlativo": {
+      "tooltip": "Next invoice number to be assigned on issue (preview — may change if another user issues first)",
+      "noConfig": "No FAC config",
+      "noSucursal": "No branch"
+    }
+  },
+  "returns": {
+    "title": "Invoice Return",
+    "listTitle": "Returns",
+    "new": "New Return",
+    "description": "Call an issued invoice to return all or part of its items",
+    "searchPlaceholder": "Search invoice by number or customer...",
+    "noEligible": "No invoices eligible for return",
+    "changeInvoice": "Change Invoice",
+    "items": "Invoice Items",
+    "purchased": "Purchased",
+    "alreadyReturned": "Already Returned",
+    "toReturn": "To Return",
+    "refund": "Refund",
+    "totalReturn": "Full Return",
+    "clear": "Clear",
+    "originalPayments": "Original Payments",
+    "creditNoPayments": "Credit invoice: no payments registered",
+    "type": "Type",
+    "typeTotal": "Total",
+    "typePartial": "Partial",
+    "itemsSubtotal": "Items Subtotal",
+    "refundTotal": "Total to Refund",
+    "refundNote": "The refund includes the proportional share of VAT and IGTF paid for the returned items.",
+    "reason": "Return reason",
+    "reasonPlaceholder": "E.g.: defective product",
+    "reasonRequired": "A reason is required to register the return",
+    "submit": "Register Return",
+    "submitting": "Registering...",
+    "registered": "Return {number} registered successfully",
+    "submitError": "Could not register the return on the server. Please try again.",
+    "confirmTitle": "Confirm Return",
+    "confirmMessage": "Do you confirm the return on invoice {number}? {refund} will be refunded.",
+    "print": {
+      "title": "Credit Note",
+      "againstInvoice": "Against Invoice",
+      "reason": "Reason"
+    },
+    "number": "Credit Note",
+    "itemCount": "Units",
+    "empty": "No returns registered",
+    "listSearchPlaceholder": "Search by credit note or invoice...",
+    "status": {
+      "active": "Active",
+      "voided": "Voided"
+    },
+    "statusFilter": {
+      "all": "All",
+      "active": "Active",
+      "voided": "Voided"
+    },
+    "voidDialog": {
+      "title": "Return Voiding",
+      "message": "Do you confirm voiding return {number}? Invoice {invoice} will recover its status and the quantities become returnable again."
+    }
+  },
+  "currencies": {
+    "title": "Currency Management",
+    "description": "Currencies available for invoice emission",
+    "code": "Code",
+    "name": "Name",
+    "symbol": "Symbol",
+    "role": "Role",
+    "base": "Base Currency",
+    "foreign": "Foreign Currency",
+    "active": "Active",
+    "pricingNote": "Product prices are expressed in USD as the reference currency. Conversion to the invoice currency uses the current bank rate.",
+    "loading": "Loading currencies...",
+    "fetchError": "Could not load currencies. Please try again.",
+    "addCurrency": "Add Currency",
+    "saveError": "Could not save the currency. Please try again.",
+    "deleteDialog": {
+      "title": "Delete currency",
+      "message": "Are you sure you want to delete currency {code}? This action cannot be undone."
+    }
+  },
+  "exchangeRates": {
+    "title": "Bank Rate Management",
+    "description": "Exchange rates expressed in USD (the system's base currency) per unit of foreign currency",
+    "register": "Register Today's Rate",
+    "currency": "Currency",
+    "rateValue": "Rate (USD)",
+    "rateValuePerUsd": "How many {code} equal 1 USD",
+    "resolvedPreview": "Will be saved as {rate} USD per 1 {code}",
+    "history": "Rate History",
+    "effectiveDate": "Date",
+    "loading": "Loading rates...",
+    "fetchError": "Could not load exchange rates. Please try again.",
+    "saving": "Saving...",
+    "saveError": "Could not save the rate. Please try again.",
+    "unknownCurrencyError": "This currency isn't registered in the backend catalog yet."
+  },
+  "igtf": {
+    "title": "IGTF Management",
+    "description": "Tax on Large Financial Transactions",
+    "enabled": "IGTF Enabled",
+    "enabledHint": "Applies the tax to invoices issued in foreign currency (USD, COP)",
+    "rate": "Rate",
+    "rateHint": "Percentage applied over the total amount paid in foreign currency",
+    "legalNote": "IGTF only applies when the invoice is issued in a currency other than VES, calculated over the subtotal plus VAT.",
+    "fetchError": "Could not load the IGTF settings. Try again.",
+    "saveError": "Could not save the IGTF change. Try again."
+  },
+  "inventory": {
+    "title": "Inventory",
+    "summary": {
+      "products": "Registered products",
+      "categories": "Registered categories",
+      "lowStock": "Products with low stock",
+      "pendingTransfers": "Pending transfers",
+      "totalSku": "Total SKUs",
+      "categoryColumn": "Category",
+      "inventoryValue": "Inventory Value",
+      "newTransfer": "New Transfer",
+      "adjustInventory": "Adjust Inventory",
+      "allCategories": "All categories",
+      "sufficientStock": "Sufficient"
+    },
+    "categories": {
+      "title": "Categories",
+      "newCategory": "New Category",
+      "editCategory": "Edit Category",
+      "empty": "No categories registered",
+      "notFound": "Category not found",
+      "loading": "Loading categories...",
+      "fetchError": "Could not load categories. Please try again.",
+      "form": {
+        "codigo": "Code",
+        "name": "Name",
+        "description": "Description",
+        "isActive": "Active Category",
+        "saving": "Saving...",
+        "saveError": "Could not save the category. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Category",
+        "message": "Are you sure you want to delete the category {name}? This action cannot be undone."
+      }
+    },
+    "warehouses": {
+      "title": "Warehouses",
+      "newWarehouse": "New Warehouse",
+      "editWarehouse": "Edit Warehouse",
+      "empty": "No warehouses registered",
+      "notFound": "Warehouse not found",
+      "loading": "Loading warehouses...",
+      "fetchError": "Could not load warehouses. Please try again.",
+      "form": {
+        "codigo": "Code",
+        "generateCorrelativo": "Generate code",
+        "name": "Name",
+        "sucursal": "Branch",
+        "selectSucursal": "Select a branch",
+        "responsable": "Manager",
+        "isActive": "Active Warehouse",
+        "saving": "Saving...",
+        "saveError": "Could not save the warehouse. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Warehouse",
+        "message": "Are you sure you want to delete the warehouse {name}? This action cannot be undone."
+      }
+    },
+    "products": {
+      "title": "Products",
+      "newProduct": "New Product",
+      "editProduct": "Edit Product",
+      "searchPlaceholder": "Search by name or code...",
+      "empty": "No products registered",
+      "notFound": "Product not found",
+      "loading": "Loading products...",
+      "fetchError": "Could not load products. Please try again.",
+      "lastModified": "Last Modified",
+      "form": {
+        "codigo": "Code",
+        "name": "Name",
+        "categoriaId": "Category",
+        "monedaBaseId": "Currency ID",
+        "unit": "Unit",
+        "weightKg": "Weight (kg)",
+        "weightKgHint": "Weight per sales unit. Used as the base for dispatch and freight calculations.",
+        "description": "Description",
+        "isActive": "Active Product",
+        "saving": "Saving...",
+        "saveError": "Could not save the product. Please try again.",
+        "referencia": "Reference",
+        "marca": "Brand",
+        "modelo": "Model",
+        "departamentoId": "Department ID",
+        "precioCosto": "Cost price",
+        "impuestoPorcentaje": "Tax (%)",
+        "capacidadContenido": "Content capacity",
+        "montoComision": "Commission amount",
+        "manejaLotes": "Manages batches",
+        "manejaSeriales": "Manages serial numbers",
+        "permiteDecimales": "Allows decimal quantities",
+        "sujetoComisionFija": "Subject to fixed commission",
+        "selectCategory": "Select a category",
+        "selectCurrency": "Select a currency",
+        "monedaFetchError": "Could not load currencies.",
+        "loteInicial": "Batch number",
+        "loteInicialHint": "Not sent yet — the backend has no batch tracking support.",
+        "serialInicial": "Serial number",
+        "serialInicialHint": "Not sent yet — the backend has no serial tracking support."
+      },
+      "deleteDialog": {
+        "title": "Delete Product",
+        "message": "Are you sure you want to delete the product {name}? This action cannot be undone."
+      }
+    },
+    "prices": {
+      "title": "Prices",
+      "cost": "Cost",
+      "price": "Sale Price",
+      "currency": "Currency",
+      "margin": "Margin",
+      "costFor": "Cost of {name}",
+      "priceFor": "Sale price of {name}",
+      "currencyFor": "Currency of {name}"
+    },
+    "seriales": {
+      "title": "Serial Numbers",
+      "newSerial": "New Serial",
+      "editSerial": "Edit Serial",
+      "empty": "No serial numbers registered",
+      "notFound": "Serial not found",
+      "loading": "Loading serial numbers...",
+      "fetchError": "Could not load serial numbers. Try again.",
+      "sold": "Sold",
+      "available": "Available",
+      "form": {
+        "productoId": "Product",
+        "selectProducto": "Select a product",
+        "numeroSerial": "Serial Number",
+        "depositoId": "Warehouse",
+        "selectDeposito": "No warehouse",
+        "vendido": "Sold",
+        "saving": "Saving...",
+        "saveError": "Could not save the serial. Try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Serial",
+        "message": "Are you sure you want to delete serial {name}? This action cannot be undone."
+      }
+    },
+    "lotes": {
+      "title": "Batches",
+      "newLote": "New Batch",
+      "editLote": "Edit Batch",
+      "empty": "No batches registered",
+      "notFound": "Batch not found",
+      "loading": "Loading batches...",
+      "fetchError": "Could not load batches. Try again.",
+      "form": {
+        "productoId": "Product",
+        "selectProducto": "Select a product",
+        "numeroLote": "Batch Number",
+        "fechaVencimiento": "Expiration Date",
+        "saving": "Saving...",
+        "saveError": "Could not save the batch. Try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Batch",
+        "message": "Are you sure you want to delete batch {name}? This action cannot be undone."
+      }
+    },
+    "control": {
+      "title": "Stock Adjustment",
+      "allWarehouses": "All locations",
+      "warehouse": "Location",
+      "quantity": "Quantity",
+      "quantityFor": "Quantity of {name}",
+      "minQuantity": "Minimum Quantity",
+      "lowStock": "Low Stock",
+      "ok": "OK",
+      "saveError": "Couldn't save the quantity. Try again.",
+      "reason": "Reason",
+      "reasonPlaceholder": "E.g. physical count, shrinkage...",
+      "reasonFor": "Adjustment reason for {name}",
+      "history": {
+        "action": "History",
+        "title": "History of {name}",
+        "loading": "Loading history...",
+        "empty": "No movements recorded for this product yet.",
+        "by": "Adjusted by: {name}",
+        "type": {
+          "CARGO": "Increase",
+          "DESCARGO": "Decrease",
+          "TRANSFERENCIA": "Transfer"
+        }
+      },
+      "adjustment": {
+        "action": "Adjust",
+        "title": "Adjust Quantity",
+        "currentQuantity": "Current quantity",
+        "newQuantity": "New quantity",
+        "reason": "Reason",
+        "reasonPlaceholder": "E.g. physical count, shrinkage, damaged goods...",
+        "reasonRequired": "A reason is required to register the adjustment",
+        "saving": "Saving...",
+        "reprint": "Reprint document",
+        "documentTitle": "Inventory Adjustment Document",
+        "quantityBefore": "Previous quantity",
+        "quantityAfter": "New quantity"
+      }
+    },
+    "transfers": {
+      "title": "Transfers",
+      "newTransfer": "New Transfer",
+      "searchPlaceholder": "Search by code...",
+      "empty": "No transfers registered",
+      "dispatch": "Dispatch",
+      "receive": "Receive",
+      "actionError": "Couldn't complete the operation. Try again.",
+      "cancelDialog": {
+        "title": "Cancel Transfer",
+        "message": "Are you sure you want to cancel transfer {code}? This action cannot be undone."
+      },
+      "status": {
+        "REQUESTED": "Requested / In Preparation",
+        "IN_TRANSIT": "Dispatched / In Transit",
+        "RECEIVED_PARTIAL": "Received Partial (With Discrepancy)",
+        "RECEIVED_CONFIRMED": "Received Confirmed",
+        "CANCELLED": "Cancelled"
+      },
+      "category": {
+        "NEW_MERCHANDISE": "New Merchandise Entry",
+        "BRANCH_TRANSFER": "Branch Transfer",
+        "INTERNAL_SAMPLES": "Internal Use - Samples and Display",
+        "INTERNAL_TECH_TEST": "Internal Use - Technical Testing",
+        "QUALITY_QUARANTINE": "Quality Control (Quarantine)",
+        "FRACTIONING_LOSS": "Fractioning Loss (Cutting)"
+      },
+      "form": {
+        "category": "Category",
+        "code": "Code",
+        "from": "From",
+        "to": "To",
+        "selectWarehouse": "Select a location",
+        "sameWarehouseError": "Origin and destination cannot be the same",
+        "items": "Products",
+        "addItem": "Add product",
+        "product": "Product",
+        "selectProduct": "Select a product",
+        "quantity": "Quantity",
+        "noItems": "Add at least one product",
+        "notes": "Notes"
+      },
+      "receiveDialog": {
+        "title": "Receive Transfer {code}",
+        "requested": "Requested: {quantity}",
+        "receivedQuantity": "Received Quantity",
+        "notes": "Discrepancy Notes",
+        "notesPlaceholder": "E.g. one roll arrived damaged, missing 1 liter of ink...",
+        "confirm": "Confirm Reception"
+      },
+      "detail": {
+        "createdAt": "Created",
+        "updatedAt": "Last Updated",
+        "requestedHeader": "Requested",
+        "receivedHeader": "Received",
+        "subtotal": "Subtotal",
+        "totalWeight": "Total Weight",
+        "totalCost": "Total Cost",
+        "discrepancyReport": "Discrepancy Report",
+        "discrepancyLine": "requested {requested}, received {received}"
+      },
+      "print": {
+        "reason": "Reason",
+        "title": {
+          "NEW_MERCHANDISE": "Goods Receipt Note",
+          "BRANCH_TRANSFER": "Inter-Branch Transfer Note",
+          "INTERNAL_SAMPLES": "Internal Consumption Note — Samples & Display",
+          "INTERNAL_TECH_TEST": "Internal Consumption Note — Technical Testing",
+          "QUALITY_QUARANTINE": "Quality Control Note (Quarantine)",
+          "FRACTIONING_LOSS": "Fractioning Loss Note"
+        }
+      }
+    },
+    "transformations": {
+      "title": "Transformations",
+      "newTransformation": "New Transformation",
+      "viewHistory": "View history",
+      "searchPlaceholder": "Search by document number...",
+      "empty": "No transformations registered",
+      "date": "Date",
+      "fetchError": "Could not load the transformations. Please try again.",
+      "previewError": "Could not calculate the preview. Please try again.",
+      "executeError": "Could not execute the transformation. Please try again.",
+      "success": "Transformation confirmed: {code}",
+      "status": {
+        "CONFIRMADA": "Confirmed",
+        "ANULADA": "Voided"
+      },
+      "form": {
+        "code": "Document",
+        "product": "Product",
+        "warehouse": "Deposit",
+        "originPanel": "Input — Material to Consume",
+        "resultPanel": "Output — Resulting Products",
+        "originWarehouse": "Origin Warehouse",
+        "destinationWarehouse": "Destination Warehouse",
+        "sameAsOrigin": "Same as origin",
+        "cost": "Cost",
+        "weight": "Weight (kg)",
+        "totalCost": "Total Cost",
+        "totalWeight": "Total Weight",
+        "costDifference": "Cost Difference",
+        "weightDifference": "Weight Difference",
+        "noResultYet": "Calculate the preview to see the resulting products",
+        "selectProduct": "Select a product",
+        "selectWarehouse": "Select a deposit",
+        "quantity": "Quantity",
+        "notes": "Notes",
+        "addItem": "Add product",
+        "calculatePreview": "Calculate preview",
+        "previewTitle": "Transformation result",
+        "confirm": "Confirm transformation"
+      },
+      "print": {
+        "title": "Inventory Transformation",
+        "preliminaryNote": "Non-fiscal document. The transformation is not yet confirmed: inventory has not moved."
+      }
+    },
+    "transformationRules": {
+      "title": "Transformation Rules",
+      "subtitle": "Review active rules and create new configurations without touching the database.",
+      "backToTransformations": "Back to transformations",
+      "types": {
+        "POR_METRO": "By meter",
+        "ROLLO_A_METROS": "Roll to meters",
+        "TAZAS": "Mugs",
+        "HOJILLA_COMBO": "Blade combo",
+        "SPLIT_FIJO": "Fixed split"
+      },
+      "typeDescriptions": {
+        "POR_METRO": "Splits the source material into two equal parts using the origin product.",
+        "ROLLO_A_METROS": "Converts full rolls into meters using a numeric factor.",
+        "TAZAS": "Expands boxed mugs into units with the configured factor.",
+        "HOJILLA_COMBO": "Groups loose units into combos based on the factor.",
+        "SPLIT_FIJO": "Breaks one source product into several predefined output items."
+      },
+      "examples": {
+        "useExample": "Use example",
+        "POR_METRO": {
+          "title": "6010 vinyl 1.22 m",
+          "description": "Reference fractioning example for by-meter material and half-width cuts."
+        },
+        "ROLLO_A_METROS": {
+          "title": "100 m transfer roll",
+          "description": "One full roll transforms into 100 meters with factor 100."
+        },
+        "TAZAS": {
+          "title": "Mug box to units",
+          "description": "A mug box with factor 36 represents 36 individual units."
+        },
+        "HOJILLA_COMBO": {
+          "title": "Loose blades to combo",
+          "description": "With factor 3, every 3 available blades generate 1 combo."
+        },
+        "SPLIT_FIJO": {
+          "title": "PAH 1.52 m to 1.00 m + 0.50 m",
+          "description": "Fixed breakdown producing one PAH 1 m unit and one PAH 0.50 m unit."
+        }
+      },
+      "form": {
+        "title": "Form",
+        "adminEnabled": "Admin mode",
+        "readOnly": "Read only",
+        "readOnlyHelp": "Your user can review rules but cannot create new ones. The inventario.admin permission is required to use the form.",
+        "product": "Source product",
+        "selectProduct": "Select a product",
+        "type": "Rule type",
+        "factor": "Factor",
+        "splitItems": "Output products",
+        "selectSplitProduct": "Select an output product",
+        "addSplitItem": "Add output",
+        "save": "Save rule",
+        "saveError": "Could not save the rule. Try again.",
+        "success": "Rule created for {product}."
+      },
+      "list": {
+        "title": "Active list",
+        "help": "Active rules are loaded from GET /inventario/reglas.",
+        "searchPlaceholder": "Search by code, name or type...",
+        "product": "Product",
+        "type": "Type",
+        "factor": "Factor",
+        "result": "Result",
+        "sameProduct": "Same source product",
+        "notApplicable": "N/A",
+        "empty": "No rules registered"
+      }
+    },
+
+    "inventoryPreliminares": {
+      "title": "Inventory Preliminaries",
+      "newPreliminar": "New Preliminary",
+      "pending": "Pending",
+      "empty": "No pending preliminaries",
+      "apply": "Apply to stock",
+      "fetchError": "Could not load the preliminaries. Please try again.",
+      "saveError": "Could not save the preliminary. Please try again.",
+      "applyError": "Could not apply the preliminary. Please try again.",
+      "tipo": {
+        "INV_CARGO": "Charge (inbound)",
+        "INV_DESCARGO": "Discharge (outbound)"
+      },
+      "form": {
+        "tipo": "Type",
+        "warehouse": "Deposit",
+        "etiqueta": "Label",
+        "items": "Products",
+        "save": "Save preliminary"
+      },
+      "applyDialog": {
+        "title": "Apply to stock",
+        "message": "Apply preliminary \"{label}\" to the real stock? This action cannot be undone."
+      }
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "newCustomer": "New Customer",
+    "editCustomer": "Edit Customer",
+    "searchPlaceholder": "Search by name or document...",
+    "empty": "No customers registered",
+    "loading": "Loading customers...",
+    "fetchError": "Could not load customers. Please try again.",
+    "notFound": "Customer not found",
+    "list": {
+      "name": "Name",
+      "specialTaxpayer": "Special Taxpayer"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "documentType": "Document Type",
+      "documentNumber": "Document Number",
+      "documentNumberHint": "Digits only; for RIF, the check digit goes after a dash (e.g. 12345678-9)",
+      "email": "Email",
+      "emailHint": "Must contain {'@'} and a valid domain (e.g. .com, .net, .org, .co)",
+      "phone": "Phone",
+      "phoneHint": "Local format: 0424-123-4567 (11 digits). With country code: +58-424-123-4567 (drop the leading 0). The dash is optional",
+      "creditLimit": "Credit Limit",
+      "paymentTermsDays": "Payment Terms (Days)",
+      "notes": "Notes",
+      "isSpecialTaxpayer": "Special Taxpayer (SENIAT)",
+      "saving": "Saving...",
+      "saveError": "Could not save the customer. Please try again."
+    },
+    "deleteDialog": {
+      "title": "Delete Customer",
+      "message": "Are you sure you want to delete {name}? This action cannot be undone."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The requested route does not exist.",
+    "backHome": "Back to home"
+  },
+  "forbidden": {
+    "title": "Access denied",
+    "description": "Your role doesn't have permission to view this section.",
+    "backHome": "Back to home"
+  },
+  "master": {
+    "bancos": {
+      "title": "Banks",
+      "newBanco": "New Bank",
+      "editBanco": "Edit Bank",
+      "empty": "No banks registered",
+      "notFound": "Bank not found",
+      "loading": "Loading banks...",
+      "fetchError": "Could not load banks. Please try again.",
+      "form": {
+        "codigo": "Code",
+        "nombre": "Name",
+        "isActive": "Active Bank",
+        "saving": "Saving...",
+        "saveError": "Could not save the bank. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Bank",
+        "message": "Are you sure you want to delete the bank {name}? This action cannot be undone."
+      }
+    },
+    "empresas": {
+      "title": "Companies",
+      "newEmpresa": "New Company",
+      "editEmpresa": "Edit Company",
+      "empty": "No companies registered",
+      "notFound": "Company not found",
+      "loading": "Loading companies...",
+      "fetchError": "Could not load companies. Please try again.",
+      "form": {
+        "nombre": "Name",
+        "siglas": "Acronym",
+        "rif": "Tax ID (RIF)",
+        "nit": "NIT",
+        "direccionFiscal": "Fiscal Address",
+        "direccionDespacho": "Shipping Address",
+        "telefono": "Phone",
+        "email": "Email",
+        "website": "Website",
+        "saving": "Saving...",
+        "saveError": "Could not save the company. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Company",
+        "message": "Are you sure you want to delete the company {name}? This action cannot be undone.",
+        "error": "Could not delete the company. Please try again."
+      }
+    },
+    "sucursales": {
+      "title": "Branches",
+      "newSucursal": "New Branch",
+      "editSucursal": "Edit Branch",
+      "empty": "No branches registered",
+      "notFound": "Branch not found",
+      "loading": "Loading branches...",
+      "fetchError": "Could not load branches. Please try again.",
+      "form": {
+        "empresaId": "Company",
+        "selectEmpresa": "Select a company",
+        "codigo": "Code",
+        "siglas": "Initials",
+        "siglasHint": "Defaults to the selected company's initials — you can change them.",
+        "nombre": "Name",
+        "direccion": "Address",
+        "telefono": "Phone",
+        "isActive": "Active Branch",
+        "saving": "Saving...",
+        "saveError": "Could not save the branch. Please try again.",
+        "catalogTitle": "Document Type Catalog",
+        "catalogDescription": "Created automatically along with the branch, so it can issue invoices, returns and transfers from day one. Adjust each prefix if needed.",
+        "catalogError": "The branch was created, but its document type catalog couldn't be fully created. Finish it manually under Maestros > Document Types.",
+        "warehouseTitle": "Initial Warehouse (optional)",
+        "warehouseDescription": "Without at least one warehouse, this branch won't be able to invoice — any seller assigned to it will have no inventory to sell. You can leave this blank and create the warehouse later under Inventory > Warehouses, but it's recommended to do it now.",
+        "warehouseError": "The branch was created, but the initial warehouse couldn't be created. Create it manually under Inventory > Warehouses before assigning sellers to this branch."
+      },
+      "deleteDialog": {
+        "title": "Delete Branch",
+        "message": "Are you sure you want to delete the branch {name}? This action cannot be undone.",
+        "error": "Could not delete the branch. Please try again."
+      }
+    },
+    "roles": {
+      "title": "Roles",
+      "newRol": "New Role",
+      "editRol": "Edit Role",
+      "empty": "No roles registered",
+      "notFound": "Role not found",
+      "loading": "Loading roles...",
+      "fetchError": "Could not load roles. Please try again.",
+      "form": {
+        "nombre": "Name",
+        "descripcion": "Description",
+        "isActive": "Active Role",
+        "modulosPermitidos": "System Modules and Permissions",
+        "searchPlaceholder": "Search permissions by name, module or description...",
+        "selectAll": "Select all",
+        "deselectAll": "Deselect all",
+        "selectedCount": "{selected} of {total} permissions selected",
+        "selectModule": "Select module",
+        "deselectModule": "Deselect module",
+        "noPermisosFound": "No permissions match your search.",
+        "saving": "Saving...",
+        "saveError": "Could not save the role. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Role",
+        "message": "Are you sure you want to delete the role {name}? This action cannot be undone."
+      }
+    },
+    "cuentasBancarias": {
+      "title": "Bank Accounts",
+      "newCuenta": "New Bank Account",
+      "editCuenta": "Edit Bank Account",
+      "empty": "No bank accounts registered",
+      "notFound": "Bank account not found",
+      "loading": "Loading bank accounts...",
+      "fetchError": "Could not load bank accounts. Please try again.",
+      "form": {
+        "bancoId": "Bank",
+        "selectBanco": "Select a bank",
+        "numeroCuenta": "Account Number",
+        "monedaId": "Currency",
+        "selectMoneda": "Select a currency",
+        "tipoCuenta": "Account Type",
+        "selectTipoCuenta": "None",
+        "descripcion": "Description",
+        "saldoConciliado": "Reconciled Balance",
+        "isActive": "Active Account",
+        "saving": "Saving...",
+        "saveError": "Could not save the bank account. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Bank Account",
+        "message": "Are you sure you want to delete the bank account {name}? This action cannot be undone."
+      }
+    },
+    "parametros": {
+      "title": "Tax Parameters",
+      "newParametro": "New Parameter",
+      "editParametro": "Edit Parameter",
+      "empty": "No tax parameters registered",
+      "notFound": "Tax parameter not found",
+      "loading": "Loading tax parameters...",
+      "fetchError": "Could not load tax parameters. Try again.",
+      "form": {
+        "codigo": "Code",
+        "descripcion": "Description",
+        "porcentaje": "Percentage",
+        "vigenteDesde": "Valid From",
+        "vigenteHasta": "Valid Until",
+        "isActive": "Active Parameter",
+        "saving": "Saving...",
+        "saveError": "Could not save the tax parameter. Try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Tax Parameter",
+        "message": "Are you sure you want to delete parameter {name}? This action cannot be undone."
+      }
+    },
+    "metodosPago": {
+      "title": "Payment Methods",
+      "newMetodo": "New Payment Method",
+      "editMetodo": "Edit Payment Method",
+      "empty": "No payment methods registered",
+      "notFound": "Payment method not found",
+      "loading": "Loading payment methods...",
+      "fetchError": "Could not load payment methods. Try again.",
+      "form": {
+        "codigo": "Code",
+        "nombre": "Name",
+        "monedaId": "Currency",
+        "selectMoneda": "Select a currency",
+        "requiereCuentaBancaria": "Requires Bank Account",
+        "isActive": "Active Method",
+        "saving": "Saving...",
+        "saveError": "Could not save the payment method. Try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Payment Method",
+        "message": "Are you sure you want to delete method {name}? This action cannot be undone."
+      }
+    },
+    "vendedores": {
+      "title": "Salespeople",
+      "newVendedor": "New Salesperson",
+      "editVendedor": "Edit Salesperson",
+      "empty": "No salespeople registered",
+      "notFound": "Salesperson not found",
+      "loading": "Loading salespeople...",
+      "fetchError": "Could not load salespeople. Try again.",
+      "form": {
+        "codigo": "Code",
+        "nombre": "Name",
+        "email": "Email",
+        "telefono": "Phone",
+        "comisionPorcentaje": "Commission (%)",
+        "isActive": "Active Salesperson",
+        "saving": "Saving...",
+        "saveError": "Could not save the salesperson. Try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Salesperson",
+        "message": "Are you sure you want to delete salesperson {name}? This action cannot be undone."
+      }
+    },
+    "proveedores": {
+      "title": "Suppliers",
+      "newProveedor": "New Supplier",
+      "editProveedor": "Edit Supplier",
+      "empty": "No suppliers registered",
+      "notFound": "Supplier not found",
+      "loading": "Loading suppliers...",
+      "fetchError": "Could not load suppliers. Try again.",
+      "saldoActual": "Current Balance",
+      "form": {
+        "codigo": "Code",
+        "nombre": "Name",
+        "rif": "Tax ID",
+        "nit": "NIT",
+        "direccion": "Address",
+        "telefono": "Phone",
+        "email": "Email",
+        "monedaCuentaId": "Account Currency",
+        "selectMoneda": "Select a currency",
+        "diasCredito": "Credit Days",
+        "isActive": "Active Supplier",
+        "saving": "Saving...",
+        "saveError": "Could not save the supplier. Try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Supplier",
+        "message": "Are you sure you want to delete supplier {name}? This action cannot be undone."
+      }
+    },
+    "usuarios": {
+      "title": "Users",
+      "newUsuario": "New User",
+      "editUsuario": "Edit User",
+      "empty": "No users registered",
+      "notFound": "User not found",
+      "loading": "Loading users...",
+      "fetchError": "Could not load users. Please try again.",
+      "form": {
+        "username": "Username",
+        "nombreCompleto": "Full Name",
+        "password": "Password",
+        "passwordEditHint": "Leave blank to keep the current password.",
+        "email": "Email",
+        "rolId": "Role",
+        "selectRol": "No role",
+        "sucursalId": "Branch",
+        "selectSucursal": "No branch",
+        "modulosHeredados": "Allowed modules (inherited from role)",
+        "modulosHeredadosEmpty": "This role has no modules assigned yet",
+        "isActive": "Active User",
+        "saving": "Saving...",
+        "saveError": "Could not save the user. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete User",
+        "message": "Are you sure you want to delete the user {name}? This action cannot be undone."
+      }
+    },
+    "tiposDocumentos": {
+      "title": "Document Types",
+      "description": "Numbering series for invoices, returns and transfers, per branch.",
+      "newTipoDocumento": "New Document Type",
+      "editTipoDocumento": "Edit Document Type",
+      "empty": "No document types registered",
+      "notFound": "Document type not found",
+      "loading": "Loading document types...",
+      "fetchError": "Could not load document types. Please try again.",
+      "form": {
+        "sucursalId": "Branch",
+        "selectSucursal": "Select a branch",
+        "codigo": "Code",
+        "codigoPlaceholder": "E.g. FAC, DEV, TR",
+        "nombre": "Name",
+        "prefijo": "Prefix",
+        "longitudFormato": "Correlative length",
+        "longitudFormatoHint": "Number of zero-padded digits (e.g. 8 → 00000001).",
+        "correlativoActual": "Current correlative",
+        "correlativoActualHint": "Changing this number can cause duplicate or skipped document numbers. Only edit it if you know what you're doing.",
+        "isActive": "Active Document Type",
+        "saving": "Saving...",
+        "saveError": "Could not save the document type. Please try again."
+      },
+      "deleteDialog": {
+        "title": "Delete Document Type",
+        "message": "Are you sure you want to delete {name}? Invoices/returns/transfers for that branch won't be issuable until it's registered again."
+      }
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "loading": "Loading...",
+    "totals": "Totals",
+    "tabs": {
+      "sales": "Sales / Invoicing",
+      "inventory": "Inventory / Stock",
+      "receivable": "Accounts Receivable"
+    },
+    "sales": {
+      "dateFrom": "From",
+      "dateTo": "To",
+      "customer": "Customer",
+      "customerPlaceholder": "Search by customer name...",
+      "allStatuses": "All",
+      "pending": "Pending",
+      "fetchError": "Could not load invoices. Please try again."
+    },
+    "inventory": {
+      "allWarehouses": "All warehouses",
+      "quantity": "Stock",
+      "totalValue": "Total Value"
+    },
+    "accountsReceivable": {
+      "fetchError": "Could not load accounts receivable. Please try again."
+    },
+    "receivable": {
+      "document": "Document",
+      "dueDate": "Due Date",
+      "originalAmount": "Original Amount",
+      "pendingBalance": "Pending Balance",
+      "pending": "Pending",
+      "paid": "Paid",
+      "overdue": "overdue"
+    }
+  },
+  "dashboard": {
+    "title": "Executive Summary",
+    "subtitle": "Welcome back. Here's the current state of your operation.",
+    "noAccess": "You don't have modules with data to show here yet. Use the side menu to navigate.",
+    "kpis": {
+      "salesToday": "Sales Today",
+      "vsYesterday": "vs. {amount} yesterday",
+      "receivable": "Receivable",
+      "overdueCount": "{count} overdue invoices",
+      "noOverdue": "No overdue invoices",
+      "lowStock": "Low Stock",
+      "lowStockHint": "Items need restocking",
+      "taxes": "Taxes (Month)",
+      "taxesHint": "VAT + IGTF invoiced"
+    },
+    "salesTrend": {
+      "title": "Sales Trend (7 Days)"
+    },
+    "lowStockAlerts": {
+      "title": "Inventory Alerts",
+      "viewAll": "View full inventory",
+      "empty": "No products with low stock",
+      "min": "Min: {value}"
+    },
+    "recentTransactions": {
+      "title": "Recent Transactions",
+      "viewAll": "View full invoice history",
+      "empty": "No invoices recorded yet"
+    }
+  },
+  "preliminares": {
+    "picker": {
+      "title": "Load draft",
+      "subtitle": "Saved but unissued documents. Loading one recalculates prices and today's rate.",
+      "searchPlaceholder": "Search by customer or user…",
+      "loading": "Loading drafts…",
+      "empty": "No saved drafts.",
+      "confirmDelete": "Yes, delete",
+      "items": "{count} item | {count} items"
+    },
+    "saved": "Draft saved.",
+    "saveError": "Could not save the draft.",
+    "loadError": "Could not load the draft.",
+    "overwriteConfirm": "There are products in the cart. Continuing replaces them with the draft's.",
+    "noCustomer": "No customer",
+    "legend": "PRELIMINARY",
+    "printNote": "Non-fiscal document. Prices are subject to the exchange rate on the issuing date.",
+    "loaded": "Draft loaded.",
+    "adjusted": {
+      "title": "Some lines were adjusted on load:",
+      "missingProduct": "{name}: the product no longer exists or is inactive.",
+      "noPrice": "{name}: the product has no current price.",
+      "clamped": "{name}: quantity reduced from {requested} to {available} due to available stock.",
+      "noStock": "{name}: no stock available, not loaded.",
+      "missingCustomer": "The saved customer no longer exists: pick one before issuing.",
+      "missingWarehouse": "The saved warehouse is no longer available: pick one before issuing."
+    },
+    "transferPrintNote": "Non-fiscal document. The transfer has not been issued yet: no stock has moved.",
+    "groupLabel": "Draft document",
+    "actions": {
+      "save": "Save",
+      "load": "Load",
+      "print": "Print"
+    },
+    "overwriteTitle": "Replace the current order",
+    "overwriteAccept": "Replace"
+  }
+}
